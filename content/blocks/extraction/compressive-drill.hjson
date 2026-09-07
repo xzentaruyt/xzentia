@@ -8,6 +8,7 @@
     }
     "drillTime": 120
     "size": 2
+    "itemCapacity": 40
     "rotateSpeed": 7
     hasPower: true
     consumes: {
