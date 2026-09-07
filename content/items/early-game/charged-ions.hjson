@@ -1,0 +1,13 @@
+{
+  "name": "Charged Ions"
+  "description": "A Group of Positively Charged Ions."
+  "details": "It does not follow the laws of physics."
+  "cost": 2.5
+  "color": 00ff68
+  "research": {
+    "parent": "ciode"
+    "requirements": [charged-ions/1]
+  }
+  "hardness": 3
+  "radioactivity": 1
+}
