@@ -1,0 +1,33 @@
+{
+  "type": "ConsumeGenerator",
+  "name": "Large Ciode Wall",
+  "description": "A wall made from ciode. It's radioactivity generates power.",
+  "details": "Reflects Damage with radioactive electricity",
+  "health": 3000,
+  "size": 2,
+  "buildCostMultiplier": 5,
+  "destructible": true,
+  "powerProduction": 5,
+  "displayEfficiency": false,
+  "lightningChance": 0.6,
+  "lightningDamage": 25,
+  "lightningLength": 10,
+  "lightningColor": "00f0ff",
+  "flashHit": true,
+  "requirements": [
+    {
+      "item": "ciode",
+      "amount": 24
+    }
+  ],
+  "category": "defense",
+  "research": {
+    "parent": "ciode-wall",
+    "requirements": [
+      {
+        "item": "ciode",
+        "amount": 1000
+      }
+    ]
+  }
+}
