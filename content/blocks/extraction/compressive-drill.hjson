@@ -6,7 +6,7 @@
         "parent": pneumatic-drill
         "requirements": [ciode/3000, titanium/2400, copper/3000]
     }
-    "drillTime": 120
+    "drillTime": 240
     "size": 2
     "itemCapacity": 40
     "rotateSpeed": 7
