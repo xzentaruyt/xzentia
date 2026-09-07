@@ -1,0 +1,26 @@
+X Zentia (x-z-y-t) ~ By X Zentaru
+
+A mod that aims add a bunch of content.
+
+## Software Used
+- **Visual Studio Code** : Editing all the files
+- **scratch.mit.edu** (I'm not joking) : Making sprites
+
+---
+
+## Mods that helped make this mod:
+
+Zinq's Holy Light
+
+Thank you so much! I'll give 90% of the credit to this mod and my friend for helping me even start modding!
+
+---
+
+## Discord server: 
+
+https://discord.gg/6PAadH4QWU
+
+---
+
+I hope you enjoy! 
+

@@ -1,0 +1,84 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "De-ionizor",
+  "name": "De-ionizor",
+  "description": "Deionize Things Into More Things",
+  "details": "uses charged ions.",
+  "health": 1200,
+  "category": "crafting",
+  "craftTime": 80,
+  "buildCostMultiplier": 2,
+  "size": 2,
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 300
+    },
+    {
+      "item": "charged-ions",
+      "amount": 100
+    },
+    {
+      "item": "graphite",
+      "amount": 50
+    },
+    {
+      "item": "copper",
+      "amount": 200
+    }
+  ],
+  "research": {
+    "parent": "ciode-ionizer",
+    "requirements": [
+      {
+        "item": "lead",
+        "amount": 3000
+      },
+      {
+        "item": "charged-ions",
+        "amount": 2000
+      },
+      {
+        "item": "graphite",
+        "amount": 2000
+      },
+      {
+        "item": "copper",
+        "amount": 2000
+      },
+      {
+        "item": "ciode",
+        "amount": 1
+      }
+    ]
+  },
+  "consumes": {
+    "power": 20,
+    "items": {
+      "items": [
+        {
+          "item": "charged-ions",
+          "amount": 10
+        },
+        {
+          "item": "lead",
+          "amount": 5
+        }
+      ]
+    },
+    "liquid": {
+      "liquid": "water",
+      "amount": 1
+    }
+  },
+  "outputItems": [
+    {
+      "item": "titanium",
+      "amount": 5
+    },
+    {
+      "item": "anticharged-ions",
+      "amount": 5
+    }
+  ]
+}

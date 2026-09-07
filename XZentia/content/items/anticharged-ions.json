@@ -1,0 +1,19 @@
+{
+  "localizedName": "Charged Ions",
+  "name": "Charged Ions",
+  "description": "A Group of Negatively Charged Ions.",
+  "details": "It does not follow the laws of physics.",
+  "cost": 2.5,
+  "color": "ff0097",
+  "research": {
+    "parent": "ciode",
+    "requirements": [
+      {
+        "item": "anticharged-ions",
+        "amount": 1
+      }
+    ]
+  },
+  "hardness": 3,
+  "radioactivity": 1
+}

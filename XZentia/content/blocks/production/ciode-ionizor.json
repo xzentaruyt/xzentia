@@ -1,0 +1,97 @@
+{
+  "type": "GenericCrafter",
+  "localizedName": "Ciode Ionizor",
+  "name": "Ciode Ionizor",
+  "description": "Ionize Ciode using Water",
+  "details": "Creates Stable Lead Isotopes, and Cryofluid as byproducts.",
+  "health": 1200,
+  "category": "crafting",
+  "craftTime": 80,
+  "buildCostMultiplier": 2,
+  "size": 2,
+  "lightColor": "00f0ffff",
+  "emitLight": true,
+  "lightRadius": 60,
+  "hasItems": true,
+  "hasLiquids": true,
+  "requirements": [
+    {
+      "item": "lead",
+      "amount": 300
+    },
+    {
+      "item": "titanium",
+      "amount": 100
+    },
+    {
+      "item": "graphite",
+      "amount": 50
+    },
+    {
+      "item": "metaglass",
+      "amount": 25
+    },
+    {
+      "item": "copper",
+      "amount": 200
+    }
+  ],
+  "research": {
+    "parent": "combustion-generator",
+    "requirements": [
+      {
+        "item": "lead",
+        "amount": 3000
+      },
+      {
+        "item": "titanium",
+        "amount": 1000
+      },
+      {
+        "item": "graphite",
+        "amount": 2000
+      },
+      {
+        "item": "metaglass",
+        "amount": 2500
+      },
+      {
+        "item": "copper",
+        "amount": 2000
+      },
+      {
+        "item": "ciode",
+        "amount": 1
+      }
+    ]
+  },
+  "consumes": {
+    "power": 10,
+    "items": {
+      "items": [
+        {
+          "item": "ciode",
+          "amount": 1
+        }
+      ]
+    },
+    "liquid": {
+      "liquid": "water",
+      "amount": 1
+    }
+  },
+  "outputLiquid": {
+    "liquid": "cryofluid",
+    "amount": 1
+  },
+  "outputItems": [
+    {
+      "item": "lead",
+      "amount": 1
+    },
+    {
+      "item": "charged-ions",
+      "amount": 5
+    }
+  ]
+}

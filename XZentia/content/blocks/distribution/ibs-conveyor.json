@@ -1,0 +1,67 @@
+{
+  "type": "StackConveyor",
+  "category": "distribution",
+  "localizedName": "Ionized Bulk Stack Conveyor",
+  "name": "Ionized Bulk Stack Conveyor",
+  "description": "The IBSC moves objects in bulk.",
+  "details": "It also goes on water.",
+  "health": 400,
+  "speed": 0.08,
+  "loadEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 7,
+    "lifetime": 15,
+    "length": 25,
+    "cone": -360,
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "73FFAEFF",
+    "colorTo": "57D993FF"
+  },
+  "unloadEffect": {
+    "type": "ParticleEffect",
+    "line": true,
+    "particles": 7,
+    "lifetime": 15,
+    "length": 25,
+    "cone": -360,
+    "lenFrom": 5,
+    "lenTo": 0,
+    "colorFrom": "73FFAEFF",
+    "colorTo": "57D993FF"
+  },
+  "itemCapacity": 10,
+  "placeableLiquid": true,
+  "requirements": [
+    {
+      "item": "ciode",
+      "amount": 2
+    },
+    {
+      "item": "lead",
+      "amount": 1
+    },
+    {
+      "item": "charged-ions",
+      "amount": 5
+    }
+  ],
+  "research": {
+    "parent": "titanium-conveyor",
+    "requirements": [
+      {
+        "item": "ciode",
+        "amount": 200
+      },
+      {
+        "item": "lead",
+        "amount": 100
+      },
+      {
+        "item": "charged-ions",
+        "amount": 500
+      }
+    ]
+  }
+}
