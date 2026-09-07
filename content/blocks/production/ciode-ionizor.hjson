@@ -1,0 +1,34 @@
+{
+  "type": GenericCrafter
+  "name": Ciode Ionizor
+  "description": "Ionize Ciode using Water"
+  "details": "Creates Stable Lead Isotopes, and Cryofluid as byproducts."
+  "health": 1200
+  "category": crafting
+  "craftTime": 80
+  "buildCostMultiplier": 2
+  "size": 2
+  "lightColor": 00f0ffff
+  "emitLight": true
+  "lightRadius": 60
+  "hasItems": true
+  "hasLiquids": true
+  "requirements": [lead/300, titanium/100, graphite/50, metaglass/25, copper/200]
+  "research": {
+    "parent": combustion-generator
+    "requirements": [lead/3000, titanium/1000, graphite/2000, metaglass/2500, copper/2000, ciode/1]
+  },
+  "consumes": {
+    "power": 10
+    "items": [ciode/1]
+    "liquid": {
+      liquid: water
+      amount: 1
+    }
+    }
+  "outputLiquid": {
+    liquid: cryofluid
+    amount: 1
+  }
+  "outputItems": [lead/1, charged-ions/5]
+}
