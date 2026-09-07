@@ -4,7 +4,8 @@ A mod that aims add a bunch of content.
 
 ## Software Used
 - **Visual Studio Code** : Editing all the files
-- **scratch.mit.edu** (I'm not joking) : Making sprites
+- **https://scratch.mit.edu** (I'm not joking) : Making some sprites
+- **Piskel** : Making some other sprites
 
 ---
 
