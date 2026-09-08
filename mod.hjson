@@ -5,4 +5,7 @@
   "description": "My First Mindustry Mod, My Server is here at: https://discord.gg/6PAadH4QWU Using this give you a neat little role! :3",
   "minGameVersion": "136",
   "version": "Beta"
+  "dependencies": [
+    "multicrafter"
+  ]
 }
