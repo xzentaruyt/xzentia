@@ -1,0 +1,30 @@
+{
+  "type": ShieldWall
+  "health": 6000
+  "size": 2
+  "buildCostMultiplier": 2
+  "destructible": true
+  shieldHealth: 500
+  "lightningChance": 0.6
+  "lightningDamage": 25
+  "lightningLength": 10
+  "lightningColor": 00f0ff
+  "flashHit": true
+   consumes:{
+    power: 3
+  }
+  "requirements": [
+    plutonium/24
+    thorium/12
+    silicon/6
+  ]
+  "category": "defense"
+  "research": {
+    "parent": "plutonium-wall"
+    "requirements": [
+        plutonium/1000
+        thorium/1000
+        silicon/1000
+    ]
+  }
+}
