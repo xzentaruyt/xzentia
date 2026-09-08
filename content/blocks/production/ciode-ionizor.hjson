@@ -13,10 +13,10 @@
   "lightRadius": 60
   "hasItems": true
   "hasLiquids": true
-  "requirements": [lead/300, titanium/100, graphite/50, metaglass/25, copper/200]
+  "requirements": [lead/300, silicon/100, graphite/50, metaglass/25, copper/200]
   "research": {
     "parent": combustion-generator
-    "requirements": [lead/3000, titanium/1000, graphite/2000, metaglass/2500, copper/2000, ciode/1]
+    "requirements": [lead/3000, silicon/1000, graphite/2000, metaglass/2500, copper/2000, ciode/1]
   },
   "consumes": {
     "power": 10
