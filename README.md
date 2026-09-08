@@ -1,4 +1,4 @@
-X Zentia (x-z-y-t) ~ By X Zentaru
+X Zentia (x-z-y-t) ~ By xzentaruyt
 
 A mod that aims add a bunch of content.
 

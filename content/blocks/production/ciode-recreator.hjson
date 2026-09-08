@@ -11,10 +11,10 @@
   "lightColor": 00f0ff
   "emitLight": true
   "lightRadius": 60
-  "outputItem": [
-    item: ciode
-    amount: 1
-  ]
+   "outputItem": {
+   "item": "ciode",
+   "amount": 2
+ }
   "consumes": {
     "power": 15
     "items": [lead/2, titanium/1]

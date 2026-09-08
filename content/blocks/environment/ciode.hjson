@@ -1,0 +1,10 @@
+{
+  "type": "OverlayFloor",
+  "itemDrop": "ciode",
+  "playerUnmineable": false,
+  "oreDefault": false,
+  "variants": 4,
+  "oreScale": 14,
+  "oreThreshold": 0.9,
+  "wallOre":  true
+}

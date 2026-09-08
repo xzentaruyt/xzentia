@@ -1,9 +1,11 @@
 {
-  "type": GenericCrafter
+  "type": MultiCrafter
   "health": 1200
   "category": crafting
   "craftTime": 80
   "buildCostMultiplier": 2
+  saveConfig: true
+  copyConfig: true
   "size": 2
   "requirements": [lead/300, charged-ions/100, graphite/50, copper/200]
   "configurable": true
@@ -17,13 +19,44 @@
     "parent": ciode-ionizor
     "requirements": [lead/3000, charged-ions/2000, graphite/2000, copper/2000, ciode/1]
   }
-  "consumes": {
-    "power": 20
-    "items": [charged-ions/10, lead/5]
-    "liquid": {
-      liquid: water
-      amount: 1
+  recipes: [
+    {
+      input: {
+        items: [
+          charged-ions/10 
+          lead/5
+        ]
+        "liquid": {
+          liquid: water
+          amount: 1
+        }
+        power: 20
+      }
+      output: {
+        items: [
+          titanium/5
+          anticharged-ions/5
+        ]
+      }
     }
-  }
-  "outputItems": [titanium/5, anticharged-ions/5]
+    {
+      input: {
+        items: [
+          charged-ions/10 
+          scrap/20
+        ]
+        "liquid": {
+          liquid: cryofluid
+          amount: 1
+        }
+        power: 20
+      }
+      output: {
+        items: [
+          plutonium/5
+          anticharged-ions/5
+        ]
+      }
+    }
+  ]
 }

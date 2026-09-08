@@ -1,0 +1,10 @@
+{
+  "cost": 2.5
+  "color": 00ff68
+  "research": {
+    "parent": "scrap"
+    "requirements": [charged-ions/1]
+  }
+  "hardness": 3
+  "radioactivity": 1
+}
