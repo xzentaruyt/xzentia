@@ -1,0 +1,29 @@
+{
+  "type": GenericCrafter
+  "health": 1200
+  "category": crafting
+  "craftTime": 80
+  "buildCostMultiplier": 2
+  "size": 2
+  "requirements": [lead/300, charged-ions/100, graphite/50, copper/200]
+  "configurable": true
+  "hasPower": true
+  "hasItems": true
+  "craftEffect": smeltsmoke
+  "lightColor": 00f0ff
+  "emitLight": true
+  "lightRadius": 60
+  "research": {
+    "parent": ciode-ionizor
+    "requirements": [lead/3000, charged-ions/2000, graphite/2000, copper/2000, ciode/1]
+  }
+  "consumes": {
+    "power": 20
+    "items": [charged-ions/10, lead/5]
+    "liquid": {
+      liquid: water
+      amount: 1
+    }
+  }
+  "outputItems": [titanium/5, anticharged-ions/5]
+}

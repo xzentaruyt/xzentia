@@ -1,0 +1,10 @@
+{
+  "cost": 2.5
+  "color": ff0097
+  "research": {
+    "parent": "ciode"
+    "requirements": [anticharged-ions/1]
+  }
+  "hardness": 3
+  "radioactivity": 1
+}
