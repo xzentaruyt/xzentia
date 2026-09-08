@@ -29,9 +29,9 @@
           charged-ions/10 
           lead/5
         ]
-        "liquid": {
+        liquid: {
           liquid: water
-          amount: 1
+          amount: 2
         }
         power: 20
       }
@@ -50,9 +50,9 @@
           charged-ions/10 
           scrap/20
         ]
-        "liquid": {
+        liquid: {
           liquid: cryofluid
-          amount: 1
+          amount: 2
         }
         power: 20
       }
@@ -62,7 +62,7 @@
           anticharged-ions/5
         ]
       }
-      "craftTime": 80
+      "craftTime": 120
     }
   ]
 }
