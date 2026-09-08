@@ -4,7 +4,7 @@
   "size": 2
   "buildCostMultiplier": 2
   "destructible": true
-  shieldHealth: 500
+  shieldHealth: 3000
   "lightningChance": 0.6
   "lightningDamage": 25
   "lightningLength": 10
