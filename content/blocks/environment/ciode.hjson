@@ -1,6 +1,5 @@
 {
   "type": "OverlayFloor",
-  "localizedName": "Ciode Ore",
   "name": "Ciode Ore",
   "itemDrop": "ciode",
   "playerUnmineable": false,
