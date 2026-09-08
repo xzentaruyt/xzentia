@@ -1,0 +1,10 @@
+{
+  "cost": 2.5
+  "color": 00f0ff
+  "research": {
+    "parent": "titanium"
+    "requirements": [ciode/1]
+  }
+  "hardness": 3
+  "radioactivity": 0.4
+}
