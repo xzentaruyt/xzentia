@@ -4,6 +4,7 @@
   "size": 1
   "buildCostMultiplier": 2
   "destructible": true
+  underBullets: true
   shieldHealth: 500
   "lightningChance": 0.4
   "lightningDamage": 25
