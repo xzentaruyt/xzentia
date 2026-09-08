@@ -29,10 +29,9 @@
           charged-ions/10 
           lead/5
         ]
-        liquid: {
-          liquid: water
-          amount: 2
-        }
+        liquids: [
+          water/2
+        ]
         power: 20
       }
       output: {
@@ -50,10 +49,9 @@
           charged-ions/10 
           scrap/20
         ]
-        liquid: {
-          liquid: cryofluid
-          amount: 2
-        }
+        liquids: [
+          cryofluid/2
+        ]
         power: 20
       }
       output: {
@@ -63,6 +61,13 @@
         ]
       }
       "craftTime": 120
+      unlocked: false
+      resesrch: {
+        parent: deionizor
+        requirements: [
+          thorium/1000
+        ]
+      }
     }
   ]
 }
