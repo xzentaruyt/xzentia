@@ -2,7 +2,6 @@
   "type": MultiCrafter
   "health": 1200
   "category": crafting
-  "craftTime": 80
   "buildCostMultiplier": 2
   saveConfig: true
   copyConfig: true
@@ -11,6 +10,7 @@
   "configurable": true
   "hasPower": true
   "hasItems": true
+  "hasLiquids": true
   "craftEffect": smeltsmoke
   "lightColor": 00f0ff
   "emitLight": true
@@ -19,7 +19,7 @@
     "parent": ciode-ionizor
     "requirements": [lead/3000, charged-ions/2000, graphite/2000, copper/2000, ciode/1]
   }
-  recipes: [
+  jsonRecipes: [
     {
       input: {
         items: [
@@ -38,6 +38,7 @@
           anticharged-ions/5
         ]
       }
+      "craftTime": 80
     }
     {
       input: {
@@ -57,6 +58,7 @@
           anticharged-ions/5
         ]
       }
+      "craftTime": 80
     }
   ]
 }
