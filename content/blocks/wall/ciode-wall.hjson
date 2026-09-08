@@ -1,28 +1,28 @@
 {
-  "type": "ConsumeGenerator",
-  "health": 600,
-  "size": 1,
-  "buildCostMultiplier": 5,
-  "destructible": true,
-  "powerProduction": 1,
-  "displayEfficiency": false,
-  "lightningChance": 0.4,
-  "lightningDamage": 25,
-  "lightningLength": 10,
-  "lightningColor": "00f0ff",
-  "flashHit": true,
+  "type": "ConsumeGenerator"
+  "health": 600
+  "size": 1
+  "buildCostMultiplier": 5
+  "destructible": true
+  "powerProduction": 1
+  "displayEfficiency": false
+  "lightningChance": 0.4
+  "lightningDamage": 25
+  "lightningLength": 10
+  "lightningColor": "00f0ff"
+  "flashHit": true
   "requirements": [
     {
-      "item": "ciode",
+      "item": "ciode"
       "amount": 6
     }
   ],
-  "category": "defense",
+  "category": "defense"
   "research": {
-    "parent": "titanium-wall",
+    "parent": "titanium-wall"
     "requirements": [
       {
-        "item": "ciode",
+        "item": "ciode"
         "amount": 100
       }
     ]
