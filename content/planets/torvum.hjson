@@ -1,0 +1,43 @@
+{
+    type: Planet
+    mesh: {
+        type: NoiseMesh
+        divisions: 4
+        seed: 84
+        radius: 0.8
+        color1: 1f212e
+        color2: 3d425c
+        octaves: 3
+        persistence: 0.5
+        scale: 0.8
+        mag: 0.7
+    }
+    parent: sun
+    solarSystem: sun
+    radius: 0.8
+    camRadius: 0.8 
+    orbitRadius: 18
+    accessible: true
+    itemWhitelist: [
+        copper
+        lead
+        graphite
+        titanium
+        scrap
+        ciode
+        charged-ions
+        anticharged-ions
+        plutonium
+        thorium
+        ]
+    sectorSize: 2        # Higher numbers generate more micro-hex sectors across the sphere
+    startSector: 0       # The ID of the sector players land on first
+    clearSectorOnLose: false
+    allowLaunchLoadout: false # If true, allows dropping in resources from other sectors
+    allowLaunchSchematics: true
+    generator: {
+        type: SerpuloPlanetGenerator
+        minSolids: 5
+        maxSolids: 10
+    }
+}
