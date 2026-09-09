@@ -1,0 +1,11 @@
+{
+  "cost": 2
+  "color": 92c6e8
+  "research": {
+    "parent": "thorium"
+    "requirements": [pellurium/1]
+  }
+  "hardness": 4
+  "radioactivity": 1
+  charge: 1
+}

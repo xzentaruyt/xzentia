@@ -1,0 +1,28 @@
+{
+type: GenericCrafter
+ "category": crafting
+  "health": 1200
+  "size": 3
+  "hasPower": true
+  "hasItems": true
+  requirements: [graphite/50, copper/100, titanium/100, plutonium/100
+  rotationSpeed: 0.5
+  craftTime: 60
+  consumes: {
+    power: 4.0
+    items: [
+        thorium/5
+        plutonium/5
+        silicon/10
+    ]
+    liquids: [
+        cryofluid/0.5
+    ]
+  }
+  outputItem: pellurium
+  research: {
+    parent: deionizor
+    requirements: [graphite/5000, copper/5000, titanium/5000, plutonium/5000]
+    objectives: [thorium/1]
+  }
+}
