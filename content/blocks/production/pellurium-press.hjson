@@ -1,15 +1,15 @@
 {
 type: GenericCrafter
  "category": crafting
-  "health": 1200
+  "health": 2000
   "size": 3
   "hasPower": true
   "hasItems": true
   requirements: [graphite/50, copper/100, titanium/100, plutonium/100]
-  rotationSpeed: 0.5
-  craftTime: 60
+  itemCapacity: 80
+  craftTime: 120
   consumes: {
-    power: 4.0
+    power: 10
     items: [
         thorium/5
         plutonium/5
