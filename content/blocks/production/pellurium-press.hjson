@@ -19,9 +19,9 @@ type: GenericCrafter
         cryofluid/0.5
     ]
   }
- outputItem: {
-    item: pellurium/5
-  }
+ outputItem: [
+    pellurium/5
+ ]
   research: {
     parent: deionizor
     requirements: [graphite/5000, copper/5000, titanium/5000, plutonium/5000]
