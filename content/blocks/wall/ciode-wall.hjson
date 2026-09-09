@@ -2,7 +2,7 @@
   "type": "ConsumeGenerator"
   "health": 600
   "size": 1
-  "buildCostMultiplier": 5
+  "buildCostMultiplier": 2
   "destructible": true
   "powerProduction": 1
   "displayEfficiency": false
