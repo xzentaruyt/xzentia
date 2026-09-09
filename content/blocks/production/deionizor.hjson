@@ -17,6 +17,7 @@
   "lightRadius": 60
   liquidCapacity: 2000
   itemCapacity: 200
+  separateItemCapacity: true
   "research": {
     "parent": ciode-ionizor
     "requirements": [lead/3000, charged-ions/2000, graphite/2000, copper/2000, ciode/1]
