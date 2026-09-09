@@ -9,7 +9,7 @@ type: GenericCrafter
   itemCapacity: 80
   craftTime: 120
   consumes: {
-    power: 240
+    power: 120
     items: [
         thorium/5
         plutonium/5
