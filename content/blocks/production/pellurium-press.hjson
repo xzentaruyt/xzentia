@@ -5,7 +5,7 @@ type: GenericCrafter
   "size": 3
   "hasPower": true
   "hasItems": true
-  requirements: [graphite/50, copper/100, titanium/100, plutonium/100
+  requirements: [graphite/50, copper/100, titanium/100, plutonium/100]
   rotationSpeed: 0.5
   craftTime: 60
   consumes: {
@@ -19,7 +19,7 @@ type: GenericCrafter
         cryofluid/0.5
     ]
   }
- " outputItem": {
+ outputItem: {
     item: pellurium/5
   }
   research: {
