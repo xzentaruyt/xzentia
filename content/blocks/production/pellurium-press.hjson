@@ -19,7 +19,7 @@ type: GenericCrafter
         cryofluid/0.5
     ]
   }
- outputItem: [
+ outputItems:  [
     pellurium/5
  ]
   research: {
