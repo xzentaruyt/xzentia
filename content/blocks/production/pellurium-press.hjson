@@ -25,7 +25,6 @@ type: GenericCrafter
  }
   research: {
     parent: deionizor
-    requirements: [graphite/5000, copper/5000, titanium/5000, plutonium/5000]
-    objectives: [thorium/1]
+    requirements: [graphite/5000, copper/5000, titanium/5000, plutonium/5000, thorium/1]
   }
 }
