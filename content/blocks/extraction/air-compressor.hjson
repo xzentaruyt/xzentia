@@ -1,3 +1,5 @@
 {
+    type: AttributeCrafter
+    baseEfficiency: 0.25
     
 }

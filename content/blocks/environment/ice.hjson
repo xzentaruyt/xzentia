@@ -1,0 +1,6 @@
+{   
+    attributes: {
+        water: 0.4 
+        oxygenrichness: 0.8
+    }
+}
