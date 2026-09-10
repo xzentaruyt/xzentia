@@ -1,6 +1,8 @@
 {
     type: AttributeCrafter
+    category: production
     baseEfficiency: 1
+    size: 2
     attribute: oxygenrichness
     craftTime: 240
     rotate: true
