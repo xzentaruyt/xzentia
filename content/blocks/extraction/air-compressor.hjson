@@ -10,7 +10,8 @@
         type: DrawMulti
         drawers: [
             {
-                type:DrawDefault
+                type:DrawRegion
+                buildingRotate: false
             }
             {
                 type:DrawBlurSpin
@@ -20,6 +21,7 @@
             {
                 type:DrawRegion
                 suffix: -top
+                buildingRotate: false
             }
         ]
     }
