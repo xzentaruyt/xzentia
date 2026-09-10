@@ -1,0 +1,24 @@
+{
+  "type": RegenProjector
+  "health": 12600
+  "size": 3
+  "buildCostMultiplier": 2.5
+  "destructible": true
+  "placeableLiquid": true
+  "requirements": [
+    pellurium/54
+    silicon/27
+    metaglass/13
+  ]
+  healPercent: 1.6
+  range: 16
+  "category": "defense"
+  "research": {
+    "parent": "pellurium-wall-large"
+    "requirements": [
+        pellurium/2000
+        silicon/2000
+        metaglass/2000
+    ]
+  }
+}
