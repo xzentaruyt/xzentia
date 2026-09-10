@@ -74,7 +74,6 @@
             despawnEffect: flakExplosion
             rangeChange: 16
             homingPower: 10
-            homingDelay: 4
         }
     }
     requirements: [
