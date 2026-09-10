@@ -15,7 +15,7 @@
                 buildingRotate: false
             }
             {
-                type:DrawRotator
+                type:DrawRegion
                 suffix: -rotator
                 rotateSpeed: 3.141
             }

@@ -1,5 +1,5 @@
 {
-  "type": Wall
+  "type": RegenProjector
   "health": 1400
   "size": 1
   "buildCostMultiplier": 1.5
@@ -10,6 +10,7 @@
     silicon/3
     metaglass/2
   ]
+  range: 8
   "category": "defense"
   "research": {
     "parent": "plutonium-wall"

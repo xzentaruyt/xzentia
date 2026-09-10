@@ -1,5 +1,5 @@
 {
-  "type": Wall
+  "type": RegenProjector
   "health": 12600
   "size": 3
   "buildCostMultiplier": 2.5
@@ -10,6 +10,8 @@
     silicon/27
     metaglass/13
   ]
+  healPercent: 1.6
+  range: 16
   "category": "defense"
   "research": {
     "parent": "pellurium-wall-large"
