@@ -1,50 +1,62 @@
 {
-    "type": "ItemTurret",
-    "name": "Miral",
-    "description": "An upgraded variant of the Duo.",
-    "size": 1,
-    "health": 250,
-    "range": 110,
-    "reload": 30,
-    
-    "ammoTypes": {
-        "copper": "standardCopper",
-        "oxygen-capsule": {
-            "type": "FlakBulletType",
-            "speed": 4.5,
-            "damage": 16,
-            "lifetime": 30,
-            "explodeRange": 20,
-            "splashDamage": 45,
-            "splashDamageRadius": 24,
-            "width": 7,
-            "height": 9,
-            "backColor": "98daeb",
-            "frontColor": "ffffff",
-            "ammoMultiplier": 3,
-            "reloadMultiplier": 1.2,
-            "hitEffect": "flakExplosion",
-            "despawnEffect": "flakExplosion"
+    type: ItemTurret
+    name: Miral
+    description: An upgraded variant of the Duo.
+    size: 1
+    health: 250
+    range: 110
+    reload: 30
+    ammoTypes: {
+        copper: {
+            type: BasicBulletType
+            speed: 2.5
+            damage: 12
+            lifetime: 60
+            width: 7
+            height: 9
+            backColor: d39169
+            frontColor: eac1a8
+            ammoMultiplier: 2
+            reloadMultiplier: 1
+            hitEffect: flakExplosion
+            despawnEffect: flakExplosion
+        }
+        oxygen-capsule: {
+            type: FlakBulletType
+            speed: 4.5
+            damage: 18
+            lifetime: 60
+            explodeRange: 20
+            splashDamage: 45
+            splashDamageRadius: 24
+            width: 7
+            height: 9
+            backColor: 98daeb
+            frontColor: ffffff
+            ammoMultiplier: 10
+            reloadMultiplier: 1.5
+            hitEffect: flakExplosion
+            despawnEffect: flakExplosion
             homingRange: 50
             homingPower: 10
             homingDelay: 4
         }
-    },
-    
-    "requirements": [
+    }
+    requirements: [
         copper/25
         oxygen-capsule/25
         graphite/25
         lead/25
-    ],
-    "category": "turret"
+    ]
+    category: turret
     research: {
-        parent: duo
+        parent: arc
         requirements: [
             copper/500
             oxygen-capsule/500
             graphite/500
             lead/500
         ]
+        objectives: [duo]
     }
 }
