@@ -27,9 +27,7 @@
         ]
     }
     consumes: {
-        items:[
-            copper/10
-        ]
+        power: 10
     }
     outputItems: [oxygen-capsule/2]
     requirements: [
