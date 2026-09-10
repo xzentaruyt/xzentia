@@ -3,6 +3,7 @@
   "health": 5600
   "size": 2
   "buildCostMultiplier": 2
+  "placeableLiquid": true
   "destructible": true
   "requirements": [
     pellurium/24

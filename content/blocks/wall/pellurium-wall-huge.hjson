@@ -4,6 +4,7 @@
   "size": 3
   "buildCostMultiplier": 2.5
   "destructible": true
+  "placeableLiquid": true
   "requirements": [
     pellurium/54
     silicon/27
