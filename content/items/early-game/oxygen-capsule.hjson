@@ -1,5 +1,5 @@
 {
-  "cost": 15
+  "cost": 1.5
   "color": 00f0ff
   "research": {
     "parent": "water"
