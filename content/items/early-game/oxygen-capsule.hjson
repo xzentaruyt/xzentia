@@ -1,0 +1,10 @@
+{
+  "cost": 15
+  "color": 00f0ff
+  "research": {
+    "parent": "water"
+    "requirements": [oxygen-capsule/1]
+  }
+  "hardness": 1
+  explosiveness: 1
+}
