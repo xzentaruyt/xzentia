@@ -1,5 +1,43 @@
 {
     type: AttributeCrafter
-    baseEfficiency: 0.25
-    
+    baseEfficiency: 1
+    attribute: oxygenrichness
+    craftTime: 240
+    rotate: true
+    drawer: {
+        type: DrawMulti
+        drawers: [
+            {
+                type:DrawDefault
+            }
+            {
+                type:DrawBlurSpin
+                suffix: -rotator
+                rotateSpeed: 3.141
+            }
+            {
+                type:DrawRegion
+                suffix: -top
+            }
+        ]
+    }
+    consumes: {
+        items:[
+            copper/10
+        ]
+    }
+    outputItems: [oxygen-capsule/2]
+    requirements: [
+        graphite/20
+        lead/35
+        copper/60
+    ]
+    research: {
+        parent: graphite-press
+        requirements: [
+            graphite/500
+            lead/700
+            copper/700
+        ]
+    }
 }
