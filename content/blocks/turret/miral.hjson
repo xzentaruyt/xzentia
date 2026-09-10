@@ -57,11 +57,10 @@
             homingPower: 0.2
         }
         oxygen-capsule: {
-            type: FlakBulletType
+            type: BasicBulletType
             speed: 4.5
             damage: 24
             lifetime: 60
-            explodeRange: 20
             splashDamage: 45
             splashDamageRadius: 24
             width: 7
