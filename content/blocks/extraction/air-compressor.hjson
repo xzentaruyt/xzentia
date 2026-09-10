@@ -5,6 +5,7 @@
     size: 2
     attribute: oxygenrichness
     craftTime: 240
+    itemCapacity: 40
     rotate: true
     drawer: {
         type: DrawMulti
@@ -14,7 +15,7 @@
                 buildingRotate: false
             }
             {
-                type:DrawRegion
+                type:DrawRotator
                 suffix: -rotator
                 rotateSpeed: 3.141
             }
