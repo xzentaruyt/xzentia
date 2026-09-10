@@ -7,6 +7,9 @@
     range: 220
     itemCapacity: 15
     reload: 30
+    targetAir: true
+    targetGround: true
+    buildCostMultiplier: 0.5
     ammoTypes: {
         copper: {
             type: BasicBulletType
