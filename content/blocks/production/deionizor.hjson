@@ -65,10 +65,11 @@
       "craftTime": 120
       unlocked: false
       resesrch: {
-        parent: "Pb to Ti"
+        parent: deionizor
         requirements: [
           thorium/1000
         ]
+        objectives: ["thorium", "scrap"]
       }
     }
   ]
