@@ -5,12 +5,6 @@
   "buildCostMultiplier": 2
   "destructible": true
   "powerProduction": 1
-  "displayEfficiency": false
-  "lightningChance": 0.4
-  "lightningDamage": 25
-  "lightningLength": 10
-  "lightningColor": "00f0ff"
-  "flashHit": true
   "requirements": [
     {
       "item": "ciode"

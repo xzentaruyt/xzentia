@@ -1,16 +1,10 @@
 {
   "type": "ConsumeGenerator"
-  "health": 3000
+  "health": 2400
   "size": 2
   "buildCostMultiplier": 2
   "destructible": true
   "powerProduction": 5
-  "displayEfficiency": false
-  "lightningChance": 0.6
-  "lightningDamage": 25
-  "lightningLength": 10
-  "lightningColor": 00f0ff
-  "flashHit": true
   "requirements": [
     {
       "item": "ciode"

@@ -1,0 +1,21 @@
+{
+  "type": Wall
+  "health": 12600
+  "size": 3
+  "buildCostMultiplier": 2.5
+  "destructible": true
+  "requirements": [
+    pellurium/54
+    silicon/27
+    metaglass/13
+  ]
+  "category": "defense"
+  "research": {
+    "parent": "pellurium-wall-large"
+    "requirements": [
+        pellurium/2000
+        silicon/2000
+        metaglass/2000
+    ]
+  }
+}
