@@ -30,7 +30,7 @@
         power: 2
     }
     outputItems: [
-        oxygen-capsule/1
+        oxygen-capsule/2
     ]
     requirements: [
         graphite/20
