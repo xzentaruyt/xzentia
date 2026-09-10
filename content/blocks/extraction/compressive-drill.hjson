@@ -3,7 +3,7 @@
     "type": drill
     "requirements": [ciode/30, titanium/12, copper/15]
     "research": {
-        "parent": pneumatic-drill
+        "parent": blast-drill
         "requirements": [ciode/3000, titanium/2400, copper/3000]
     }
     "drillTime": 120

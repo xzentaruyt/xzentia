@@ -21,7 +21,7 @@
   }
   "requirements": [lead/300, titanium/100, copper/200],
   "research": {
-    "parent": silicon-smelter,
+    "parent": separator
     "requirements": [lead/1500, titanium/500, copper/1000, ciode/1]
   }
 }

@@ -31,7 +31,7 @@
   "placeableLiquid": true
   "requirements": [ciode/2, lead/1, charged-ions/5]
   "research": {
-    "parent": titanium-conveyor
+    "parent": armored-conveyor
     "requirements": [ciode/200, lead/100, charged-ions/500]
   }
 }

@@ -42,6 +42,7 @@
         ]
       }
       "craftTime": 80
+      unlocked: true
     }
     {
       name: "Cu to Pu"
