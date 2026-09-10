@@ -19,7 +19,7 @@
   itemCapacity: 200
   separateItemCapacity: true
   "research": {
-    "parent": ciode-ionizor
+    "parent": coal-centrifuge
     "requirements": [lead/3000, charged-ions/2000, graphite/2000, copper/2000, ciode/1]
   }
   jsonRecipes: [
@@ -65,7 +65,7 @@
       "craftTime": 120
       unlocked: false
       resesrch: {
-        parent: deionizor
+        parent: "Pb to Ti"
         requirements: [
           thorium/1000
         ]
