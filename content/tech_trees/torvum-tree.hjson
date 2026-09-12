@@ -1,10 +1,10 @@
 {
     planet: torvum
-    parent: xzyt-sparrow
+    parent: rocky-landing
     nodeRoot: {
-        node: xzyt-sparrow
+        node: rocky-landing
         children: [
-            node: xzyt-rocky-landing
+            node: sparrow
         ]
     } 
 }
