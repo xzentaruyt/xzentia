@@ -2,9 +2,9 @@
     cost: 1
     color: ffe9cd
     research: {
-        parent: titanium
+        parent: sparrow
         requirements: [
-            fiberglass/1
+            timura/1
         ]
     }
     hardness: 1
