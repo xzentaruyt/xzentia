@@ -19,7 +19,7 @@
     orbitRadius: 18
     accessible: true
     alwaysUnlocked: true
-    itemWhitelist: [
+    itemFilter: [
         copper
         lead
         graphite
@@ -30,6 +30,10 @@
         anticharged-ions
         plutonium
         thorium
+        silicon
+        fiberglass
+        pellurium
+        oxygen-capsule
         ]
     sectorSize: 2        # Higher numbers generate more micro-hex sectors across the sphere
     startSector: 0       # The ID of the sector players land on first
@@ -37,7 +41,6 @@
     allowLaunchLoadout: true # If true, allows dropping in resources from other sectors
     allowLaunchSchematics: true
     generator: {
-        type: SerpuloPlanetGenerator
         minSolids: 5
         maxSolids: 10
     }
