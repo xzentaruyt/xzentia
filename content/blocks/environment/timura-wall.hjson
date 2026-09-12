@@ -1,0 +1,8 @@
+{
+    type: StaticWall
+    destructible: false
+    priority: -3
+    solid: true
+    alwaysReplace: false
+    
+}
