@@ -1,0 +1,33 @@
+{
+    type: GenericCrafter
+    health: 2000
+    category: crafting
+    size: 3
+    "hasItems": true
+    "hasLiquids": true
+    requirements: [
+        silicon/30
+        scrap/40
+        titanium/20
+        copper/100
+    ]
+    craftTime: 60
+    consumes: {
+        power: 10
+        items: [
+            silicon/2
+            oxygen-capsule/4
+        ]
+    }
+    outputItem: [fiberglass/1]
+    research: {
+        parent: cryofluid-mixer
+        requirements: [
+            silicon/1000
+            scrap/500
+            titanium/700
+            copper/1000
+        ]
+        objectives: ["oxygen-capsule"]
+    }
+}

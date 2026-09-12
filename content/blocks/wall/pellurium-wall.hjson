@@ -10,7 +10,7 @@
   }
   "requirements": [
     pellurium/6
-    silicon/3
+    fiberglass/3
     metaglass/2
   ]
   healPercent: 0.2
@@ -20,7 +20,7 @@
     "parent": "plutonium-wall"
     "requirements": [
         pellurium/100
-        silicon/100
+        fiberglass/100
         metaglass/100
     ]
   }

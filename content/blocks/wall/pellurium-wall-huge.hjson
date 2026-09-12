@@ -10,7 +10,7 @@
   }
   "requirements": [
     pellurium/54
-    silicon/27
+    fiberglass/27
     metaglass/13
   ]
   healPercent: 0.8
@@ -20,7 +20,7 @@
     "parent": "pellurium-wall-large"
     "requirements": [
         pellurium/2000
-        silicon/2000
+        fiberglass/2000
         metaglass/2000
     ]
   }
