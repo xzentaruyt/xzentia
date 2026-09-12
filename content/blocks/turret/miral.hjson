@@ -25,7 +25,7 @@
                 suffix: -barrel-l
                 progress: recoil
                 recoilIndex: 0
-                x: -2
+                x: 0
                 y: 0
                 moveY: -3
                 under: true
@@ -35,7 +35,7 @@
                 suffix: -barrel-r
                 progress: recoil 
                 recoilIndex: 1
-                x: 2
+                x: 0
                 y: 0
                 moveY: -3
                 under: true
