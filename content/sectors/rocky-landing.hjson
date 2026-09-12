@@ -1,7 +1,7 @@
 {
     planet: torvum
     sector: 0
-    generator: rocky-landing
+    map: "rocky-landing"
     alwaysUnlocked: true
     difficulty: 2
     captureWave: 24
