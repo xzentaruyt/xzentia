@@ -1,15 +1,13 @@
 {
-    planet: torvum
-    parent: groundZeron
-    ode: xzyt-sparrow
-    requirements: []
-    alwaysUnlocked: true
-    children: [
-        {
-            parent: xzyt-sparrow
-            node: xzyt-rocky-landing
-            requirements: []
-            alwaysUnlocked: true
-        }
-    ]
+  planet: torvum
+  root: true
+  node: xzyt-sparrow
+  alwaysUnlocked: true
+  children: [
+    {
+      parent: xzyt-sparrow
+      node: xzyt-rocky-landing
+      alwaysUnlocked: true
+    }
+  ]
 }
