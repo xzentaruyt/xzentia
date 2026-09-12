@@ -10,6 +10,10 @@
         planet: torvum
     }
     health: 300
+    buildRange: 20
+    buildSpeed: 4
+    drawBody: true
+    drawCell: true
     targetable: false
     hittable: false
     flying: true
