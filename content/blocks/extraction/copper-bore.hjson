@@ -1,0 +1,17 @@
+{
+    "category" : "production" 
+    "type": drill
+    "requirements": [copper/12, kimura/20]
+    "research": {
+        "parent": sparrow
+        "requirements": [copper/100, kimura/100]
+    }
+    "drillTime": 120
+    "size": 2
+    "rotateSpeed": 3
+    shownPlanets: [
+        torvum
+    ]
+    tier: 1
+    itemCapacity: 20
+}
