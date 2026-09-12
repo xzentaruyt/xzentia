@@ -4,7 +4,7 @@
     health: 600
     range: 280
     itemCapacity: 15
-    reload: 30
+    reload: 60
     targetAir: true
     targetGround: true
     buildCostMultiplier: 0.5
@@ -39,6 +39,13 @@
             hitEffect: flakExplosion
             despawnEffect: flakExplosion
         }
+        lead:{
+            type: BasicBulletType
+            speed: 16
+            lifetime: 20
+            damage: 10
+            reloadMultiplier: 8
+        }
         oxygen-capsule: {
             type: BasicBulletType
             speed: 8
@@ -50,6 +57,7 @@
             frontColor: ffffff
             hitEffect: flakExplosion
             despawnEffect: flakExplosion
+            reloadMultiplier: 1.5
         }
         fiberglass: {
             type: BasicBulletType
@@ -74,6 +82,7 @@
                 backColor: ffdcb2
                 frontColor: fff6eb
             }
+            reloadMultiplier: 1.25
         }
         copper: {
             type: BasicBulletType
