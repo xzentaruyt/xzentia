@@ -13,8 +13,8 @@
     targetable: false
     hittable: false
     flying: true
-    speed: 8
-    mineSpeed: 1
+    speed: 2
+    mineSpeed: 5
     mineTier: 1
     mineItems: [
         copper
