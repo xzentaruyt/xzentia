@@ -8,13 +8,13 @@
         copper/1
         timura/2
     ]
-    research: [
+    research: {
         parent: sparrow
         requirements: [
             copper/100
             timura/100
         ]
-    ]
+    }
     shownPlanets: [
         torvum
     ]
