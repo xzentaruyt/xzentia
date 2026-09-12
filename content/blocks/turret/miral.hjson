@@ -104,6 +104,8 @@
             despawnEffect: flakExplosion
             rangeChange: 16
             homingPower: 0.4
+            trailLength: 5
+            trailWidth: 1.5
         }
     }
     requirements: [

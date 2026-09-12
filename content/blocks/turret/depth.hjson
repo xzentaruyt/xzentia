@@ -39,6 +39,8 @@
             frontColor: 404040
             hitEffect: flakExplosion
             despawnEffect: flakExplosion
+            trailLength: 5
+            trailWidth: 1.5
         }
         lead:{
             type: BasicBulletType
@@ -60,6 +62,8 @@
             hitEffect: flakExplosion
             despawnEffect: flakExplosion
             reloadMultiplier: 1.25
+            trailLength: 5
+            trailWidth: 1.5
         }
         fiberglass: {
             type: BasicBulletType
@@ -71,6 +75,8 @@
             frontColor: fff6eb
             hitEffect: flakExplosion
             despawnEffect: flakExplosion
+            trailLength: 5
+            trailWidth: 1.5
             fragOnHit: true
             fragRandomSpread: 360
             fragBullets: 5
