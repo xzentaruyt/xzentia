@@ -21,7 +21,7 @@
     }
     outputItem: {
         item: "fiberglass"
-        amount: 1
+        amount: 3
     }
     research: {
         parent: cryofluid-mixer
