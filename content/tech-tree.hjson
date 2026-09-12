@@ -1,13 +1,13 @@
 {
   planet: torvum
   root: true
-  research: rocky-landing
+  research: xzyt-rocky-landing
   name: Torvum
   alwaysUnlocked: true
   children: [
     {
-      parent: rocky-landing
-      node: sparrow
+      parent: xzyt-rocky-landing
+      node: xzyt-sparrow
       alwaysUnlocked: true
     }
   ]

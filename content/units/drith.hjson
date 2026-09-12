@@ -1,0 +1,25 @@
+{
+    type: flying
+    hitSize: 2
+    shownPlanets: [
+        torvum
+    ]
+    alwaysUnlocked: true
+    research: {
+        parent: sparrow
+        planet: torvum
+    }
+    health: 300
+    targetable: false
+    hittable: false
+    flying: true
+    speed: 8
+    mineSpeed: 1
+    mineTier: 1
+    mineItems: [
+        copper
+        lead
+        sand
+        coal
+    ]
+}
