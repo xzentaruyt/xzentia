@@ -8,7 +8,7 @@
   shieldHealth: 500
   shieldHealth: 2000
   radius: 32
-  sides: 4
+  sides: 16
   consumes:{
     power: 2
   }
