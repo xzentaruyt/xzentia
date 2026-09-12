@@ -1,0 +1,21 @@
+{
+    type: conveyor
+    health: 20
+    speed: 0.3
+    placeableLiquid: true
+    itemCapacity: 4
+    requirements: [
+        copper/1
+        timura/2
+    ]
+    research: [
+        parent: sparrow
+        requirements: [
+            copper/100
+            timura/100
+        ]
+    ]
+    shownPlanets: [
+        torvum
+    ]
+}
