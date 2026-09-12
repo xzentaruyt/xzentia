@@ -44,7 +44,7 @@
             speed: 16
             lifetime: 20
             damage: 10
-            reloadMultiplier: 8
+            reloadMultiplier: 10000
         }
         oxygen-capsule: {
             type: BasicBulletType
