@@ -1,8 +1,7 @@
 {
   planet: torvum
   root: true
-  research: sparrow
-  node: rocky-landing
+  research: rocky-landing
   name: Torvum
   alwaysUnlocked: true
   children: [
