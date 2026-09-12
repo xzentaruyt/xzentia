@@ -1,6 +1,9 @@
 {
     planet: torvum
     parent: groundZero
+    shownPlanets: [
+        torvum
+    ]
     nodeRoot: {
         node: xzyt-rocky-landing
         children: [

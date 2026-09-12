@@ -5,6 +5,7 @@
     alwaysUnlocked: true
     difficulty: 2
     captureWave: 24
+    shownPlanets: [torvum]
     research: {
         planet: torvum
     }

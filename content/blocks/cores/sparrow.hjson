@@ -5,6 +5,7 @@
     itemCapacity: 1500
     unitType: alpha
     category: effect
+    shownPlanets: [torvum]
     research: {
         parent: rocky-landing
         planet: torvum
