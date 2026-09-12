@@ -1,6 +1,6 @@
 {
     type: flying
-    hitSize: 2
+    hitSize: 13
     shownPlanets: [
         torvum
     ]
