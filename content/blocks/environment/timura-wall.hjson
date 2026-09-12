@@ -4,5 +4,6 @@
     priority: -3
     solid: true
     alwaysReplace: false
-    
+    variants: 1
+
 }
