@@ -16,7 +16,7 @@
         barrels: 2
         spread: 3.5
     }
-    recoil: 2.5
+    recoil: 1
      drawer: {
         type: DrawTurret
         parts: [
