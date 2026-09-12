@@ -19,14 +19,7 @@
     orbitRadius: 18
     accessible: true
     alwaysUnlocked: true
-    research: {
-        objectives: [
-            {
-                type: SectorComplete
-                preset: groundZero
-            }
-        ]
-    }
+    techTree: xzyt-sparrow
     sectorSize: 2        # Higher numbers generate more micro-hex sectors across the sphere
     startSector: 0       # The ID of the sector players land on first
     clearSectorOnLose: false
