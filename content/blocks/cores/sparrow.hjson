@@ -5,6 +5,9 @@
     itemCapacity: 1500
     unitType: alpha
     category: effect
+    research: {
+        parent: rocky-landing
+    }
     requirements: [
         copper/1000
         lead/1000
