@@ -16,7 +16,7 @@
         barrels: 2
         spread: 3.5
     }
-    recoil: 0.5
+    recoil: 1
      drawer: {
         type: DrawTurret
         parts: [
@@ -27,7 +27,7 @@
                 recoilIndex: 0
                 x: 0
                 y: 0
-                moveY: -0.5
+                moveY: -1
                 under: true
             }
             {
@@ -37,7 +37,7 @@
                 recoilIndex: 1
                 x: 0
                 y: 0
-                moveY: -0.5
+                moveY: -1
                 under: true
             }
         ]
