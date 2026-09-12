@@ -35,6 +35,7 @@
         pellurium
         oxygen-capsule
         ]
+    techTree: torvum-tree
     sectorSize: 2        # Higher numbers generate more micro-hex sectors across the sphere
     startSector: 0       # The ID of the sector players land on first
     clearSectorOnLose: false
