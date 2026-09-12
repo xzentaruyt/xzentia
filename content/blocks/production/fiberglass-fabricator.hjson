@@ -19,7 +19,7 @@
             oxygen-capsule/4
         ]
     }
-    outputItem: [fiberglass/1]
+    outputItems: [fiberglass/1]
     research: {
         parent: cryofluid-mixer
         requirements: [
