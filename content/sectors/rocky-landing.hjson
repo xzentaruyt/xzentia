@@ -6,6 +6,7 @@
     captureWave: 24
     shownPlanets: [torvum]
     research: {
+        parent: torvum
         planet: torvum
     }
 }

@@ -8,6 +8,7 @@
     research: {
         parent: sparrow
         planet: torvum
+        requirements: []
     }
     health: 300
     buildRange: 20

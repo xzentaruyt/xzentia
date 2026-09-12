@@ -9,6 +9,7 @@
     research: {
         parent: rocky-landing
         planet: torvum
+        requirements: []
     }
     requirements: [
         copper/1000
