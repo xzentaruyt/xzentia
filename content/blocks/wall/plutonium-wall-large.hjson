@@ -1,16 +1,13 @@
 {
-  "type": ShieldWall
+  "type": ForceProjector
   "health": 4000
   "size": 2
   "buildCostMultiplier": 2
   "destructible": true
   underBullets: true
   shieldHealth: 2000
-  "lightningChance": 0.6
-  "lightningDamage": 25
-  "lightningLength": 10
-  "lightningColor": 00f0ff
-  "flashHit": true
+  radius: 8
+  sides: 4
    consumes:{
     power: 3
   }

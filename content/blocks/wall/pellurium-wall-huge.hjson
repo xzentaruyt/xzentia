@@ -5,12 +5,15 @@
   "buildCostMultiplier": 2.5
   "destructible": true
   "placeableLiquid": true
+   consumes:{
+    power: 4
+  }
   "requirements": [
     pellurium/54
     silicon/27
     metaglass/13
   ]
-  healPercent: 1.6
+  healPercent: 0.8
   range: 16
   "category": "defense"
   "research": {
