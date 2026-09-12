@@ -11,7 +11,7 @@
         requirements: []
     }
     health: 300
-    buildRange: 20
+    buildRange: 150
     buildSpeed: 4
     drawBody: true
     drawCell: true
@@ -20,11 +20,13 @@
     flying: true
     speed: 2
     mineSpeed: 5
+    mineRange: 150
     mineTier: 1
     mineItems: [
         copper
         lead
         sand
         coal
+        timura
     ]
 }
