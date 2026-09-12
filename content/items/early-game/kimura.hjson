@@ -1,0 +1,11 @@
+{
+    cost: 1
+    color: ffe9cd
+    research: {
+        parent: titanium
+        requirements: [
+            fiberglass/1
+        ]
+    }
+    hardness: 1
+}
