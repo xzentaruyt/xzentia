@@ -1,0 +1,13 @@
+{
+    type: CoreBlock
+    size: 3
+    health: 1200
+    itemCapacity: 1500
+    unitType: alpha
+    category: effect
+    requirements: [
+        copper/1000
+        lead/1000
+        fiberglass/1000
+    ]
+}
