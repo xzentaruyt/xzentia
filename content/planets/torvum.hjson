@@ -18,6 +18,7 @@
     camRadius: 0.8 
     orbitRadius: 18
     accessible: true
+    alwaysUnlocked: true
     itemWhitelist: [
         copper
         lead

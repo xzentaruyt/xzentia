@@ -4,4 +4,5 @@
     map: rocky-landing
     alwaysUnlocked: true
     difficulty: 2
+    captureWave: 24
 }
