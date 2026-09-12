@@ -3,7 +3,8 @@
     size: 2
     health: 600
     range: 280
-    itemCapacity: 15
+    itemCapacity: 20
+    maxAmmo: 100
     reload: 30
     targetAir: true
     targetGround: true

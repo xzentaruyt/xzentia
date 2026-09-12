@@ -9,6 +9,7 @@
     targetGround: true
     buildCostMultiplier: 0.5
     recoils: 2
+    maxAmmo: 100
     shoot: {
         type: ShootAlternate 
         barrels: 2
