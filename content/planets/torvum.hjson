@@ -19,23 +19,7 @@
     orbitRadius: 18
     accessible: true
     alwaysUnlocked: true
-    itemFilter: [
-        copper
-        lead
-        graphite
-        titanium
-        scrap
-        ciode
-        charged-ions
-        anticharged-ions
-        plutonium
-        thorium
-        silicon
-        fiberglass
-        pellurium
-        oxygen-capsule
-        ]
-    techTree: torvum-tree
+    techTree: sparrow
     sectorSize: 2        # Higher numbers generate more micro-hex sectors across the sphere
     startSector: 0       # The ID of the sector players land on first
     clearSectorOnLose: false
@@ -44,5 +28,21 @@
     generator: {
         minSolids: 5
         maxSolids: 10
+        items: [
+            copper
+            lead
+            graphite
+            titanium
+            scrap
+            ciode
+            charged-ions
+            anticharged-ions
+            plutonium
+            thorium
+            silicon
+            fiberglass
+            pellurium
+            oxygen-capsule
+        ]
     }
 }
