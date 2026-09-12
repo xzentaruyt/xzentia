@@ -2,7 +2,7 @@
   "cost": 2.5
   "color": 00f0ff
   "research": {
-    "parent": "titanium"
+    "parent": graphite
     "requirements": [ciode/1]
   }
   "hardness": 3

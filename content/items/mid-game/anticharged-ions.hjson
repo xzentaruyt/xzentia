@@ -2,7 +2,7 @@
   "cost": 2.5
   "color": ff0097
   "research": {
-    "parent": "ciode"
+    "parent": charged-ions
     "requirements": [anticharged-ions/1]
   }
   "hardness": 3

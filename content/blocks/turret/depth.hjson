@@ -1,0 +1,106 @@
+{
+    type: ItemTurret
+    size: 2
+    health: 600
+    range: 280
+    itemCapacity: 15
+    reload: 30
+    targetAir: true
+    targetGround: true
+    buildCostMultiplier: 0.5
+    recoils: 1
+    recoil: 1
+     drawer: {
+        type: DrawTurret
+        parts: [
+            {
+                type: RegionPart
+                suffix: -barrel
+                progress: recoil
+                recoilIndex: 0
+                x: 0
+                y: 0
+                moveY: -1
+                under: true
+            }
+        ]
+    }
+    ammoTypes: {
+        coal: {
+            type: BasicBulletType
+            speed: 4
+            lifetime: 70
+            damage: 30
+            status: tarred
+            statusDuration: 90
+            ammoMultiplier: 4
+            backColor: 272727
+            frontColor: 404040
+            hitEffect: flakExplosion
+            despawnEffect: flakExplosion
+        }
+        oxygen-capsule: {
+            type: BasicBulletType
+            speed: 8
+            lifetime: 40
+            damage: 45
+            homingPower: 0.4
+            ammoMultiplier: 10
+            backColor: 98daeb
+            frontColor: ffffff
+            hitEffect: flakExplosion
+            despawnEffect: flakExplosion
+        }
+        fiberglass: {
+            type: BasicBulletType
+            speed: 8
+            lifetime: 50
+            damage: 60
+            ammoMultiplier: 5
+            backColor: ffdcb2
+            frontColor: fff6eb
+            hitEffect: flakExplosion
+            despawnEffect: flakExplosion
+            fragOnHit: true
+            fragRandomSpread: 360
+            fragBullets: 5
+            fragBullet: {
+                type: BasicBulletType
+                damage: 10
+                speed: 2
+                lifetime: 40
+                hitEffect: flakExplosion
+                despawnEffect: flakExplosion
+                backColor: ffdcb2
+                frontColor: fff6eb
+            }
+        }
+        copper: {
+            type: BasicBulletType
+            damage: 30
+            speed: 4
+            lifetime: 70
+            ammoMultiplier: 4
+            backColor: d39169
+            frontColor: eac1a8
+            hitEffect: flakExplosion
+            despawnEffect: flakExplosion
+        }
+    }
+    requirements: [
+        copper/50
+        oxygen-capsule/50
+        fiberglass/50
+        lead/50
+    ]
+    category: turret
+    research: {
+        parent: miral
+        requirements: [
+            copper/1000
+            oxygen-capsule/1000
+            fiberglass/1000
+            lead/1000
+        ]
+    }
+}

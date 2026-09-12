@@ -1,7 +1,5 @@
 {
     type: ItemTurret
-    name: Miral
-    description: An upgraded variant of the Duo.
     size: 1
     health: 400
     range: 220
@@ -74,12 +72,12 @@
         silicon: {
             type: BasicBulletType
             speed: 3
-            damage: 35
+            damage: 28
             lifetime: 60
             width: 7
             height: 9
-            backColor: d39169
-            frontColor: eac1a8
+            backColor: "999ba0"
+            frontColor: "707594"
             ammoMultiplier: 5
             reloadMultiplier: 1.5
             hitEffect: flakExplosion
@@ -104,7 +102,7 @@
             hitEffect: flakExplosion
             despawnEffect: flakExplosion
             rangeChange: 16
-            homingPower: 10
+            homingPower: 0.4
         }
     }
     requirements: [
@@ -122,6 +120,5 @@
             graphite/500
             lead/500
         ]
-        objectives: [duo]
     }
 }
