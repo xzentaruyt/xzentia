@@ -4,7 +4,7 @@
     health: 600
     range: 280
     itemCapacity: 15
-    reload: 60
+    reload: 30
     targetAir: true
     targetGround: true
     buildCostMultiplier: 0.5
@@ -43,8 +43,8 @@
             type: BasicBulletType
             speed: 16
             lifetime: 20
-            damage: 10
-            reloadMultiplier: 10
+            damage: 6
+            reloadMultiplier: 5
         }
         oxygen-capsule: {
             type: BasicBulletType
