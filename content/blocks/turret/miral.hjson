@@ -10,6 +10,38 @@
     targetAir: true
     targetGround: true
     buildCostMultiplier: 0.5
+    recoils: 2
+    shoot: {
+        type: ShootAlternate 
+        barrels: 2
+        spread: 3.5
+    }
+    recoil: 2.5
+     drawer: {
+        type: DrawTurret
+        parts: [
+            {
+                type: RegionPart
+                suffix: -barrel-l
+                progress: recoil
+                recoilIndex: 0
+                x: -2
+                y: 0
+                moveY: -3
+                under: true
+            }
+            {
+                type: RegionPart
+                suffix: -barrel-r
+                progress: recoil 
+                recoilIndex: 1
+                x: 2
+                y: 0
+                moveY: -3
+                under: true
+            }
+        ]
+    }
     ammoTypes: {
         copper: {
             type: BasicBulletType
