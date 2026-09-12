@@ -7,7 +7,7 @@
   underBullets: true
   shieldHealth: 500
   shieldHealth: 2000
-  radius: 8
+  radius: 32
   sides: 4
   consumes:{
     power: 2

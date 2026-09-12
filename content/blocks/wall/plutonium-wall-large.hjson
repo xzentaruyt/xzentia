@@ -6,7 +6,7 @@
   "destructible": true
   underBullets: true
   shieldHealth: 2000
-  radius: 8
+  radius: 64
   sides: 4
    consumes:{
     power: 4
