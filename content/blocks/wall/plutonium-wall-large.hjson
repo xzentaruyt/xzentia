@@ -9,7 +9,7 @@
   radius: 8
   sides: 4
    consumes:{
-    power: 3
+    power: 4
   }
   "requirements": [
     plutonium/24

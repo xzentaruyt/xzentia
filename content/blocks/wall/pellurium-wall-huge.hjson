@@ -6,7 +6,7 @@
   "destructible": true
   "placeableLiquid": true
    consumes:{
-    power: 4
+    power: 8
   }
   "requirements": [
     pellurium/54
