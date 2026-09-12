@@ -3,7 +3,7 @@
     size: 3
     health: 1200
     itemCapacity: 1500
-    unitType: alpha
+    unitType: drith
     category: effect
     shownPlanets: [torvum]
     research: {
