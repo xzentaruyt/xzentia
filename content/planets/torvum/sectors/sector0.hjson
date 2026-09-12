@@ -1,0 +1,7 @@
+{
+    planet: torvum
+    sector: 0
+    map: rocky-landing
+    alwaysUnlocked: true
+    difficulty: 2
+}

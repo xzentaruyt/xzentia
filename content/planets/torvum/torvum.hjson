@@ -33,7 +33,7 @@
     sectorSize: 2        # Higher numbers generate more micro-hex sectors across the sphere
     startSector: 0       # The ID of the sector players land on first
     clearSectorOnLose: false
-    allowLaunchLoadout: false # If true, allows dropping in resources from other sectors
+    allowLaunchLoadout: true # If true, allows dropping in resources from other sectors
     allowLaunchSchematics: true
     generator: {
         type: SerpuloPlanetGenerator
