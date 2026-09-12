@@ -1,10 +1,10 @@
 {
     "category" : "production" 
     "type": drill
-    "requirements": [copper/12, kimura/20]
+    "requirements": [copper/12, timura/20]
     "research": {
         "parent": sparrow
-        "requirements": [copper/100, kimura/100]
+        "requirements": [copper/100, timura/100]
     }
     "drillTime": 120
     "size": 2
