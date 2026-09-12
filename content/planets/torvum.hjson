@@ -17,7 +17,6 @@
     radius: 0.8
     camRadius: 0.8 
     orbitRadius: 18
-    techTree: torvum
     accessible: true
     alwaysUnlocked: true
     sectorSize: 2        # Higher numbers generate more micro-hex sectors across the sphere
