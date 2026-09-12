@@ -45,6 +45,7 @@
             lifetime: 20
             damage: 6
             reloadMultiplier: 5
+            ammoMultiplier: 20
         }
         oxygen-capsule: {
             type: BasicBulletType
