@@ -32,6 +32,8 @@
             speed: 4
             lifetime: 70
             damage: 30
+            width: 7
+            height: 9
             status: tarred
             statusDuration: 90
             ammoMultiplier: 4
@@ -45,6 +47,8 @@
         lead:{
             type: BasicBulletType
             speed: 16
+            width: 3
+            height: 5
             lifetime: 20
             damage: 6
             reloadMultiplier: 5
@@ -54,6 +58,8 @@
             type: BasicBulletType
             speed: 8
             lifetime: 40
+            width: 7
+            height: 9
             damage: 45
             homingPower: 0.4
             ammoMultiplier: 10
@@ -69,6 +75,8 @@
             type: BasicBulletType
             speed: 8
             lifetime: 50
+            width: 7
+            height: 9
             damage: 60
             ammoMultiplier: 5
             backColor: ffdcb2
@@ -97,6 +105,8 @@
             damage: 30
             speed: 4
             lifetime: 70
+            width: 7
+            height: 9
             ammoMultiplier: 4
             backColor: d39169
             frontColor: eac1a8

@@ -25,11 +25,13 @@
         ]
     }
     reload: 60
-    maxAmmo: 30
+    maxAmmo: 90
     ammoTypes: {
         copper: {
             type: BasicBulletType
-            ammoMultiplier: 30
+            width: 7
+            height: 9
+            ammoMultiplier: 10
             damage: 40
             backColor: d39169
             frontColor: eac1a8
@@ -40,16 +42,20 @@
         }
         timura: {
             type: BasicBulletType
-            ammoMultiplier: 30
+            ammoMultiplier: 10
             damage: 30
             fragBullets: 2
             fragAngle: 360
             fragOnHit: true
+            width: 7
+            height: 9
             speed: 4
             lifetime: 60
             fragBullet: {
                 type: BasicBulletType
                 damage: 5
+                width: 5
+                height: 7
                 backColor: ff802e
                 frontColor: ffc92e
                 hitEffect: flakExplosion
