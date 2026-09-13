@@ -1,0 +1,30 @@
+{
+  "type": GenericCrafter
+  "health": 300
+  "category": crafting
+  "craftTime": 160
+  itemCapacity: 40
+  "buildCostMultiplier": 2
+  "size": 2
+  "lightColor": 00f0ffff
+  "emitLight": true
+  "lightRadius": 60
+  "hasItems": true
+  "requirements": [copper/200, timura/200]
+  "research": {
+    "parent": copper-bore
+    "requirements": [copper/1000, timura/1000]
+  },
+  "consumes": {
+    "items": [
+        timura/5
+    ]
+    }
+    shownPlanets: [
+        torvum
+    ]
+   "outputItem": {
+   "item": lead,
+   "amount": 1
+    }
+}
