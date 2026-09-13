@@ -6,9 +6,8 @@
     captureWave: 20
     shownPlanets: [torvum]
     overrideLaunchDefaults: true
-    requireUnlock: true
     research: {
-        parent: extraction
+        parent: rocky-landing
         requirements: []
         objectives: [
             {
