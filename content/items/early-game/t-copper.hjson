@@ -1,0 +1,12 @@
+{
+    type: item
+    hardness: 1
+    color: d99d73
+    cost: 0.5
+    shownPlanets: [
+        torvum
+    ]
+    research: {
+        parent: sparrow
+    }
+}

@@ -1,0 +1,9 @@
+{
+    type: Item
+    hardness: 1
+    color: 8c7fa9
+    cost: 0.7
+    shownPlanets: [
+        torvum
+    ]
+}
