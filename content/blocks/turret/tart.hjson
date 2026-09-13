@@ -73,4 +73,6 @@
             timura/50
         ]
     }
+    category: turret
+    databaseCategory: turret
 }
