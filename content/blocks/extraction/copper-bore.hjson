@@ -2,9 +2,10 @@
     "category" : "production" 
     "type": drill
     "requirements": [copper/12, timura/20]
+    alwaysUnlocked: true
     "research": {
         "parent": sparrow
-        "requirements": [copper/100, timura/100]
+        "requirements": []
     }
     "drillTime": 120
     "size": 2

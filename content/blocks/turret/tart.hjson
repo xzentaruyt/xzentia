@@ -66,12 +66,10 @@
     shownPlanets: [
         torvum
     ]
+    alwaysUnlocked: true
     research: {
-        parent: sparrow
-        requirements: [
-            copper/50
-            timura/50
-        ]
+        parent: copper-bore
+        requirements: []
     }
     category: turret
 }

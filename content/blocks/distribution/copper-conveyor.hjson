@@ -4,16 +4,14 @@
     speed: 0.03
     placeableLiquid: true
     itemCapacity: 4
+    alwaysUnlocked: true
     requirements: [
         copper/1
         timura/2
     ]
     research: {
-        parent: sparrow
-        requirements: [
-            copper/100
-            timura/100
-        ]
+        parent: copper-bore
+        requirements: []
     }
     shownPlanets: [
         torvum
