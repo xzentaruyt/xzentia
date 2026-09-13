@@ -1,0 +1,20 @@
+{
+    "category" : "production" 
+    "type": drill
+    "requirements": [firot/12, timura/20]
+    "research": {
+        "parent": copper-bore
+        "requirements": [
+            firot/100
+            timura/150
+        ]
+    }
+    "drillTime": 380
+    "size": 2
+    "rotateSpeed": 3
+    shownPlanets: [
+        torvum
+    ]
+    tier: 2
+    itemCapacity: 30
+}
