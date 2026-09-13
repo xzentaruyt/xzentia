@@ -17,4 +17,7 @@
         copper/100
     ]
   }
+  shownPlanets: [
+        torvum
+    ]
 }
