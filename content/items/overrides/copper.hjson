@@ -1,7 +1,0 @@
-research: {
-  parent: sparrow
-  planet: torvum
-  requirements: [
-    copper/1
-  ]
-}
