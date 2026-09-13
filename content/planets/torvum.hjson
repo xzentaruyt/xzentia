@@ -24,7 +24,6 @@
     clearSectorOnLose: false
     allowLaunchLoadout: true # If true, allows dropping in resources from other sectors
     allowLaunchSchematics: true
-    techTree: "sparrow"
     generator: {
         minSolids: 5
         maxSolids: 10

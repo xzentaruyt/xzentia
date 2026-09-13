@@ -10,6 +10,8 @@
         parent: rocky-landing
         planet: torvum
         requirements: []
+        root: true
+        requiresUnlock: false
     }
     requirements: [
         copper/1000
