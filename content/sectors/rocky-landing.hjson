@@ -5,7 +5,6 @@
     alwaysUnlocked: true
     difficulty: 2
     captureWave: 24
-    requireUnlock: false
     shownPlanets: [torvum]
     overrideLaunchDefaults: true
     research: {
