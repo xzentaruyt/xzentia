@@ -8,6 +8,10 @@
     overrideLaunchDefaults: true
     research: {
         parent: rocky-landing
+        requirements: [
+            copper/600
+            timura/600
+        ]
         objectives: [
             {
                 type: SectorComplete
