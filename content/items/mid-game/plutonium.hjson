@@ -1,6 +1,6 @@
 {
   "cost": 2.5
-  "color": 00ff68
+  "color": e8bf92
   "research": {
     "parent": "scrap"
     "requirements": [charged-ions/1]

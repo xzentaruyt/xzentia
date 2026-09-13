@@ -1,10 +1,10 @@
 {
-    cost: 1
-    color: ffc92e
+    cost: 1.2
+    color: 9b928b
     research: {
-        parent: sparrow
+        parent: scrap
         requirements: [
-            timura/1
+            firot/1
         ]
     }
     shownPlanets: [

@@ -1,6 +1,6 @@
 {
   "cost": 2.5
-  "color": 00f0ff
+  "color": 00ffff
   "research": {
     "parent": graphite
     "requirements": [ciode/1]

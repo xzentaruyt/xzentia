@@ -1,6 +1,6 @@
 {
   "cost": 1.5
-  "color": 00f0ff
+  "color": 6496de
   "research": {
     "parent": "water"
     "requirements": [oxygen-capsule/1]
