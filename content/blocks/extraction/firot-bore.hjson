@@ -2,6 +2,7 @@
     "category" : "production" 
     "type": drill
     "requirements": [firot/12, timura/20]
+    health: 350
     "research": {
         "parent": copper-bore
         "requirements": [

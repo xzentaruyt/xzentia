@@ -3,6 +3,7 @@
     "type": drill
     "requirements": [copper/12, timura/20]
     alwaysUnlocked: true
+    health: 200
     "research": {
         "parent": sparrow
         "requirements": []
