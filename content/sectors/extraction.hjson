@@ -1,0 +1,17 @@
+{
+    type: SectorPreset
+    planet: torvum
+    sector: 32
+    difficulty: 3
+    captureWave: 24
+    shownPlanets: [torvum]
+    overrideLaunchDefaults: true
+    research: {
+        parent: rocky-landing
+        objectives: [
+            type: SectorComplete
+            preset: xzyt-rocky-landing
+        ]
+        planet: torvum
+    }
+}
