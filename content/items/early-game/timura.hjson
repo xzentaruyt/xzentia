@@ -11,4 +11,5 @@
         torvum
     ]
     hardness: 1
+    lowPriority: true
 }

@@ -3,4 +3,5 @@
     variants: 3
     itemDrop: timura
     playerUnmineable: false
+    wall: timura-wall
 }

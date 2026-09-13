@@ -8,7 +8,7 @@
     overrideLaunchDefaults: true
     requireUnlock: true
     research: {
-        parent: rocky-landing
+        parent: extraction
         requirements: []
         objectives: [
             {
