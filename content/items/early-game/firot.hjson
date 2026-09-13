@@ -2,7 +2,7 @@
     cost: 1.2
     color: 7ea8a1
     research: {
-        parent: timura
+        parent: t-scrap
         requirements: [
             firot/1
         ]

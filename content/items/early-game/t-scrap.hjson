@@ -6,4 +6,7 @@
     shownPlanets: [
         torvum
     ]
+    research: {
+        parent: timura
+    }
 }
