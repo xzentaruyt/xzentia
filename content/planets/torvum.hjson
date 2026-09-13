@@ -16,6 +16,7 @@
     solarSystem: sun
     radius: 0.8
     camRadius: 0.8 
+    defaultCore: sparrow
     orbitRadius: 18
     accessible: true
     alwaysUnlocked: true
