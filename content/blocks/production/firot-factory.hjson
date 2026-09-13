@@ -14,7 +14,13 @@
   "research": {
     "parent": copper-bore
     "requirements": [lead/500, scrap/1000]
-  },
+    objectives: [
+      {
+        type: SectorComplete
+        preset: extraction
+      }
+    ]
+  }
   "consumes": {
     "items": [
         lead/2
