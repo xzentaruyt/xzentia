@@ -2,7 +2,7 @@
   "type": GenericCrafter
   "health": 300
   "category": crafting
-  "craftTime": 160
+  "craftTime": 80
   itemCapacity: 40
   "buildCostMultiplier": 2
   "size": 2
