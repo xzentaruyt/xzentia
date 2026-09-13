@@ -1,0 +1,31 @@
+{
+  "type": GenericCrafter
+  "health": 500
+  "category": crafting
+  "craftTime": 60
+  itemCapacity: 40
+  "buildCostMultiplier": 2
+  "size": 2
+  "lightColor": 00f0ffff
+  "emitLight": true
+  "lightRadius": 60
+  "hasItems": true
+  "requirements": [firot/150, timura/150]
+  "research": {
+    "parent": refinery
+    "requirements": [firot/1000, timura/1000]
+  },
+  "consumes": {
+    "items": [
+      timura/4
+      scrap/2
+    ]
+    }
+    shownPlanets: [
+        torvum
+    ]
+   "outputItem": {
+   "item": lead,
+   "amount": 3
+    }
+}
