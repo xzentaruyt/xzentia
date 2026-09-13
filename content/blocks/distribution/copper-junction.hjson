@@ -4,7 +4,6 @@
     speed: 0.02
     placeableLiquid: true
     itemCapacity: 6
-    alwaysUnlocked: true
     requirements: [
         copper/1
         timura/2
