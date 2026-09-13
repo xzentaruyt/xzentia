@@ -1,0 +1,23 @@
+{
+    type: Junction
+    health: 40
+    speed: 0.03
+    placeableLiquid: true
+    itemCapacity: 6
+    requirements: [
+        firot/1
+        sand/2
+        metaglass/1
+    ]
+    research: {
+        parent: firot-conveyor
+        requirements: [
+            metaglass/100
+            sand/100
+            firot/100
+        ]
+    }
+    shownPlanets: [
+        torvum
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    type: Router
+    health: 20
+    speed: 0.03
+    placeableLiquid: true
+    itemCapacity: 6
+    requirements: [
+        copper/1
+        sand/2
+        metaglass/1
+        firot/1
+    ]
+    research: {
+        parent: firot-conveyor
+        requirements: [
+            metaglass/100
+            sand/100
+            copper/100
+            firot/100
+        ]
+    }
+    shownPlanets: [
+        torvum
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    type: conveyor
+    health: 40
+    speed: 0.04
+    placeableLiquid: true
+    alwaysUnlocked: true
+    requirements: [
+        firot/1
+        copper/1
+        sand/2
+    ]
+    research: {
+        parent: copper-conveyor
+        requirements: [
+            firot/100
+            copper/100
+            sand/100
+        ]
+        objectives: [
+            {
+                type: OnSector
+                preset: confrontation
+            }
+            {
+                type: Research
+                content: copper-junction
+            }
+            {
+                type: Research
+                content: copper-router
+            }
+        ]
+    }
+    junctionReplacement: firot-junction
+    shownPlanets: [
+        torvum
+    ]
+}
