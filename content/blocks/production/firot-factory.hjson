@@ -13,7 +13,7 @@
   "requirements": [lead/100, scrap/200]
   "research": {
     "parent": copper-bore
-    "requirements": [lead/500, firot/1000]
+    "requirements": [lead/500, scrap/1000]
   },
   "consumes": {
     "items": [
