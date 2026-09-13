@@ -1,20 +1,10 @@
 {
-  "planet": "torvum",
-  "root": true,
-  "node": "xzyt-rocky-landing",
-  "alwaysUnlocked": true,
-  "children": [
-    {
-      "node": "xzyt-sparrow",
-      "alwaysUnlocked": true,
-      "children": [
-        {
-          "node": "conveyor"
-        },
-        {
-          "node": "mechanical-drill"
-        }
-      ]
-    }
+  node: sparrow
+  planets: [
+    torvum
+  ]
+  children: [
+    node: copper-bore
+    requirements: []
   ]
 }
