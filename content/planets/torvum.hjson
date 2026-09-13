@@ -45,8 +45,5 @@
             oxygen-capsule
         ]
     }
-    techTree: [
-        sparrow
-        sparrow->copper
-    ]
+    techTree: sparrow
 }
