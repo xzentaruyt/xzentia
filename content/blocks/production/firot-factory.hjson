@@ -1,0 +1,31 @@
+{
+  "type": GenericCrafter
+  "health": 450
+  "category": crafting
+  "craftTime": 30
+  itemCapacity: 40
+  "buildCostMultiplier": 2
+  "size": 2
+  "lightColor": 00f0ffff
+  "emitLight": true
+  "lightRadius": 60
+  "hasItems": true
+  "requirements": [lead/100, scrap/200]
+  "research": {
+    "parent": copper-bore
+    "requirements": [lead/500, firot/1000]
+  },
+  "consumes": {
+    "items": [
+        lead/2
+        scrap/1
+    ]
+    }
+    shownPlanets: [
+        torvum
+    ]
+   "outputItem": {
+   "item": firot,
+   "amount": 1
+    }
+}
