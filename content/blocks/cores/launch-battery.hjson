@@ -5,7 +5,7 @@
     placeablePlayer: false
     playerUnmineable: true
     breakable: false
-    health: 999999999
+    health: -1
     displayFlow: false
     craftTime: 1
     outputItems: [
