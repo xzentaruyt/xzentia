@@ -4,6 +4,7 @@
     health: 200
     range: 200
     recoils: 1
+    inaccuracy: 0
     requirements: [
         t-copper/25
         timura/10
