@@ -6,12 +6,9 @@
     captureWave: 24
     shownPlanets: [torvum]
     overrideLaunchDefaults: true
+    requireUnlock: true
     research: {
         parent: rocky-landing
-        requirements: [
-            copper/600
-            timura/600
-        ]
         objectives: [
             {
                 type: SectorComplete
