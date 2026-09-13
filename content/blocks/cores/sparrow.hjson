@@ -13,6 +13,15 @@
         root: true
         requiresUnlock: false
     }
+    techNode: {
+        parent: root
+        children: [
+            {
+                content: copper
+                requirements: [copper/1]
+            }
+        ]
+    }
     requirements: [
         copper/1000
         timura/1000
