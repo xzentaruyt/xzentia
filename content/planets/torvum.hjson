@@ -45,17 +45,8 @@
             oxygen-capsule
         ]
     }
-    techTree: {
-    content: sparrow
-    children: [
-      {
-        # 2. Safely bridge vanilla copper over to Torvum under sparrow
-        content: copper
-        # 3. Require exactly 1 copper to unlock it on this planet
-        requirements: [
-          copper/1
-        ]
-      }
+    techTree: [
+        sparrow
+        sparrow->copper
     ]
-  }
 }
