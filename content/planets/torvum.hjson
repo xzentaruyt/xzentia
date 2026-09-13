@@ -26,32 +26,28 @@
     allowLaunchLoadout: true # If true, allows dropping in resources from other sectors
     allowLaunchSchematics: true
     techTree: {
-        node: sparrow
+    node: sparrow
+    children: [
+        {
+            node: copper
+        }
+        {
+        node: timura
         children: [
             {
-                node: copper
-                requirements: []
+                node: scrap
             }
             {
-                node: timura
-                requirements: []
-                children: [
-                    {
-                        node: scrap
-                        requirements: []
-                    }
-                    {
-                        node: lead
-                        requirements: []
-                    }
-                ]
-            }
-            {
-                node: sand
-                requirements: []
+                node: lead
             }
         ]
+        }
+        {
+            node: sand
+        }
+        ]
     }
+
     generator: {
         minSolids: 5
         maxSolids: 10
