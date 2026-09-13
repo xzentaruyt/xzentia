@@ -9,6 +9,7 @@
     requireUnlock: true
     research: {
         parent: rocky-landing
+        requirements: []
         objectives: [
             {
                 type: SectorComplete
