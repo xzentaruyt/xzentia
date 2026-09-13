@@ -4,6 +4,9 @@
     underBullets: true
     placeablePlayer: false
     playerUnmineable: true
+    breakable: false
+    health: 999999999
+    displayFlow: false
     craftTime: 1
     outputItems: [
         copper/1
