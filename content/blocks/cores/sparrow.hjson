@@ -7,7 +7,6 @@
     category: effect
     shownPlanets: [torvum]
     research: {
-        parent: rocky-landing
         planet: torvum
         requirements: []
         root: true
