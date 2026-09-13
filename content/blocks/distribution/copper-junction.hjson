@@ -1,0 +1,24 @@
+{
+    type: Junction
+    health: 20
+    speed: 0.02
+    placeableLiquid: true
+    itemCapacity: 6
+    alwaysUnlocked: true
+    requirements: [
+        copper/1
+        timura/2
+        lead/1
+    ]
+    research: {
+        parent: copper-conveyor
+        requirements: [
+            lead/100
+            timura/100
+            copper/100
+        ]
+    }
+    shownPlanets: [
+        torvum
+    ]
+}
