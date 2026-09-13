@@ -1,6 +1,6 @@
 {
     cost: 1.2
-    color: 9b928b
+    color: 7ea8a1
     research: {
         parent: scrap
         requirements: [
