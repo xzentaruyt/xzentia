@@ -6,7 +6,7 @@
     itemCapacity: 6
     requirements: [
         copper/1
-        sand/2
+        t-sand/2
         metaglass/1
         firot/1
     ]
@@ -14,7 +14,7 @@
         parent: firot-conveyor
         requirements: [
             metaglass/100
-            sand/100
+            t-sand/100
             copper/100
             firot/100
         ]

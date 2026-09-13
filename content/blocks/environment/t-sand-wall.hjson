@@ -1,0 +1,10 @@
+{
+    type: StaticWall
+    destructible: false
+    priority: -3
+    solid: true
+    alwaysReplace: false
+    large: t-sand-wall-large
+    variants: 2
+    playerUnmineable: false
+}

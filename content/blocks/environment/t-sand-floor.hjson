@@ -1,0 +1,7 @@
+{
+    type: Floor
+    variants: 3
+    itemDrop: t-sand
+    playerUnmineable: false
+    wall: t-sand-wall
+}

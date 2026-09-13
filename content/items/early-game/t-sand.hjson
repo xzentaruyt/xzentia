@@ -1,0 +1,8 @@
+{
+    type: Item
+    hardness: 0
+    color: f7b77e
+    research: {
+        parent: sparrow
+    }
+}

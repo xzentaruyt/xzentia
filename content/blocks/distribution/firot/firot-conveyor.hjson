@@ -6,14 +6,14 @@
     requirements: [
         firot/1
         copper/1
-        sand/2
+        t-sand/2
     ]
     research: {
         parent: copper-conveyor
         requirements: [
             firot/100
             copper/100
-            sand/100
+            t-sand/100
         ]
         objectives: [
             {
