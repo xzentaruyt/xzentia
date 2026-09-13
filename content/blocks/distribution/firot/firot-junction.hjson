@@ -7,12 +7,12 @@
     requirements: [
         firot/1
         t-sand/2
-        metaglass/1
+        t-metaglass/1
     ]
     research: {
         parent: firot-conveyor
         requirements: [
-            metaglass/100
+            t-metaglass/100
             t-sand/100
             firot/100
         ]
