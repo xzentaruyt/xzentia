@@ -1,7 +1,7 @@
 {
     "category" : "production" 
     "type": drill
-    "requirements": [copper/12, timura/20]
+    "requirements": [t-copper/12, timura/20]
     alwaysUnlocked: true
     health: 200
     "research": {

@@ -1,0 +1,12 @@
+{
+    type: GenericCrafter
+    destructible: false
+    underBullets: true
+    placeablePlayer: false
+    playerUnmineable: true
+    craftTime: 1
+    outputItems: [
+        copper/1
+        lead/1
+    ]
+}

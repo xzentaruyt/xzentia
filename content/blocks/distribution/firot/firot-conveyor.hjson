@@ -5,14 +5,14 @@
     placeableLiquid: true
     requirements: [
         firot/1
-        copper/1
+        t-copper/1
         t-sand/2
     ]
     research: {
         parent: copper-conveyor
         requirements: [
             firot/100
-            copper/100
+            t-copper/100
             t-sand/100
         ]
         objectives: [

@@ -14,7 +14,7 @@
         requiresUnlock: false
     }
     requirements: [
-        copper/1000
+        t-copper/1000
         timura/1000
     ]
 }

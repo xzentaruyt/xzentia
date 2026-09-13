@@ -10,10 +10,10 @@
   "emitLight": true
   "lightRadius": 60
   "hasItems": true
-  "requirements": [lead/100, scrap/200]
+  "requirements": [t-lead/100, t-scrap/200]
   "research": {
     "parent": copper-bore
-    "requirements": [lead/500, scrap/1000]
+    "requirements": [t-lead/500, t-scrap/1000]
     objectives: [
       {
         type: SectorComplete
@@ -23,8 +23,8 @@
   }
   "consumes": {
     "items": [
-        lead/2
-        scrap/1
+        t-lead/2
+        t-scrap/1
     ]
     }
     shownPlanets: [

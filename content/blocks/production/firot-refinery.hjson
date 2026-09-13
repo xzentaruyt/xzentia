@@ -18,14 +18,14 @@
   "consumes": {
     "items": [
       timura/4
-      scrap/2
+      t-scrap/2
     ]
     }
     shownPlanets: [
         torvum
     ]
    "outputItem": {
-   "item": lead,
+   "item": t-lead,
    "amount": 3
     }
 }

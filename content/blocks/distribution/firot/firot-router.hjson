@@ -5,7 +5,7 @@
     placeableLiquid: true
     itemCapacity: 6
     requirements: [
-        copper/1
+        t-copper/1
         t-sand/2
         metaglass/1
         firot/1
@@ -15,7 +15,7 @@
         requirements: [
             metaglass/100
             t-sand/100
-            copper/100
+            t-copper/100
             firot/100
         ]
     }

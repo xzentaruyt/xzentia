@@ -6,7 +6,7 @@
     itemCapacity: 4
     alwaysUnlocked: true
     requirements: [
-        copper/1
+        t-copper/1
         timura/2
     ]
     research: {

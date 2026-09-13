@@ -5,16 +5,16 @@
     placeableLiquid: true
     itemCapacity: 6
     requirements: [
-        copper/1
+        t-copper/1
         timura/2
-        lead/1
+        t-lead/1
     ]
     research: {
         parent: copper-conveyor
         requirements: [
-            lead/100
+            t-lead/100
             timura/100
-            copper/100
+            t-copper/100
         ]
     }
     shownPlanets: [

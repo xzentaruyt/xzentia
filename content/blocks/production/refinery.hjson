@@ -10,10 +10,10 @@
   "emitLight": true
   "lightRadius": 60
   "hasItems": true
-  "requirements": [copper/200, timura/200]
+  "requirements": [t-copper/200, timura/200]
   "research": {
     "parent": copper-bore
-    "requirements": [copper/1000, timura/1000]
+    "requirements": [t-copper/1000, timura/1000]
   },
   "consumes": {
     "items": [
@@ -24,7 +24,7 @@
         torvum
     ]
    "outputItem": {
-   "item": lead,
+   "item": t-lead,
    "amount": 1
     }
 }
