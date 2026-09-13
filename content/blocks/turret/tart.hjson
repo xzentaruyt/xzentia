@@ -1,0 +1,76 @@
+{
+    type: ItemTurret
+    size: 1
+    health: 200
+    range: 200
+    recoils: 1
+    requirements: [
+        copper/25
+        timura/10
+    ]
+    recoil: 1
+     drawer: {
+        type: DrawTurret
+        parts: [
+            {
+                type: RegionPart
+                suffix: -barrel
+                progress: recoil
+                recoilIndex: 0
+                x: 0
+                y: 0
+                moveY: -3
+                under: true
+            }
+        ]
+    }
+    reload: 60
+    maxAmmo: 30
+    ammoTypes: {
+        copper: {
+            type: BasicBulletType
+            ammoMultiplier: 30
+            damage: 40
+            backColor: d39169
+            frontColor: eac1a8
+            hitEffect: flakExplosion
+            despawnEffect: flakExplosion
+            speed: 8
+            lifetime: 30
+        }
+        timura: {
+            type: BasicBulletType
+            ammoMultiplier: 30
+            damage: 30
+            fragBullets: 2
+            fragAngle: 360
+            fragOnHit: true
+            speed: 4
+            lifetime: 60
+            fragBullet: {
+                type: BasicBulletType
+                damage: 5
+                backColor: ff802e
+                frontColor: ffc92e
+                hitEffect: flakExplosion
+                despawnEffect: flakExplosion
+                speed: 8
+                lifetime: 10
+            }
+            backColor: ff802e
+            frontColor: ffc92e
+            hitEffect: flakExplosion
+            despawnEffect: flakExplosion
+        }
+    }
+    shownPlanets: [
+        torvum
+    ]
+    research: {
+        parent: sparrow
+        requirements: [
+            copper/50
+            timura/50
+        ]
+    }
+}
