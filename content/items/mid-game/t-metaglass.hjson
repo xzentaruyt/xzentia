@@ -1,0 +1,12 @@
+{
+    type: item
+    hardness: 1
+    color: ebeef5
+    cost: 1.5
+    shownPlanets: [
+        torvum
+    ]
+    research: {
+        parent: t-lead
+    }
+}
