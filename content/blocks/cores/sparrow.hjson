@@ -15,7 +15,6 @@
     }
     requirements: [
         copper/1000
-        lead/1000
-        fiberglass/1000
+        timura/1000
     ]
 }
