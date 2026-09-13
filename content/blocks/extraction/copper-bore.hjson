@@ -7,7 +7,7 @@
         "parent": sparrow
         "requirements": []
     }
-    "drillTime": 120
+    "drillTime": 480
     "size": 2
     "rotateSpeed": 3
     shownPlanets: [

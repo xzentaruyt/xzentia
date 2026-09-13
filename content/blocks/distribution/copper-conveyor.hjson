@@ -1,7 +1,7 @@
 {
     type: conveyor
     health: 20
-    speed: 0.03
+    speed: 0.02
     placeableLiquid: true
     itemCapacity: 4
     alwaysUnlocked: true
