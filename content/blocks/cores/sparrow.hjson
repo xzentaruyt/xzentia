@@ -6,6 +6,7 @@
     unitType: drith
     category: effect
     shownPlanets: [torvum]
+    alwaysUnlocked: true
     research: {
         planet: torvum
         requirements: []
