@@ -9,8 +9,10 @@
     research: {
         parent: rocky-landing
         objectives: [
-            type: SectorComplete
-            preset: xzyt-rocky-landing
+            {
+                type: SectorComplete
+                preset: rocky-landing
+            }
         ]
         planet: torvum
     }
