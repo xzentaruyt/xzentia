@@ -25,6 +25,33 @@
     clearSectorOnLose: false
     allowLaunchLoadout: true # If true, allows dropping in resources from other sectors
     allowLaunchSchematics: true
+    techTree: {
+        node: sparrow
+        children: [
+            {
+                node: copper
+                requirements: []
+            }
+            {
+                node: timura
+                requirements: []
+                children: [
+                    {
+                        node: scrap
+                        requirements: []
+                    }
+                    {
+                        node: lead
+                        requirements: []
+                    }
+                ]
+            }
+            {
+                node: sand
+                requirements: []
+            }
+        ]
+    }
     generator: {
         minSolids: 5
         maxSolids: 10
