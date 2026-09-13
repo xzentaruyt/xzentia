@@ -8,7 +8,7 @@
     shownPlanets: [torvum]
     overrideLaunchDefaults: true
     research: {
-        parent: torvum
+        parent: sparrow
         planet: torvum
     }
 }
