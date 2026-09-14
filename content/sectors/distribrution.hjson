@@ -1,0 +1,21 @@
+{
+    type: SectorPreset
+    planet: torvum
+    sector: 2
+    difficulty: 3
+    captureWave: 28
+    shownPlanets: [torvum]
+    overrideLaunchDefaults: true
+    requireUnlock: true
+    research: {
+        parent: extraction
+        requirements: []
+        objectives: [
+            {
+                type: SectorComplete
+                preset: extraction
+            }
+        ]
+        planet: torvum
+    }
+}
