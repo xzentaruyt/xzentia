@@ -4,7 +4,7 @@
     sector: 37
     difficulty: 3
     captureWave: 20
-    rules: winWave = captureWave
+    rules: [winWave = captureWave]
     shownPlanets: [torvum]
     overrideLaunchDefaults: true
     requireUnlock: true
