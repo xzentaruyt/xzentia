@@ -41,7 +41,7 @@
             frontColor: eac1a8
             hitEffect: flakExplosion
             despawnEffect: flakExplosion
-            homingDelay: 0.2
+            homingPower: 0.2
         }
         t-scrap: {
             type: BasicBulletType
