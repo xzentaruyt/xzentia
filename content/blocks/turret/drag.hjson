@@ -54,7 +54,8 @@
             frontColor: e0b28d
             hitEffect: flakExplosion
             despawnEffect: flakExplosion
-            homingPower: 0.1
+            homingPower: 0.2
+            rangeChange: 120
         }
     }
 }
