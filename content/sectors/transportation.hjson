@@ -1,8 +1,8 @@
 {
     type: SectorPreset
     planet: torvum
-    sector: 2
-    difficulty: 18
+    sector: 18
+    difficulty: 3
     captureWave: 22
     shownPlanets: [torvum]
     overrideLaunchDefaults: true
