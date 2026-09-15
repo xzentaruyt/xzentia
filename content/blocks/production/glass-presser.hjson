@@ -1,0 +1,29 @@
+{
+    type: GenericCrafter
+    category: crafting
+    health: 400
+    requirements: [
+        t-copper/50
+        timura/50
+        firot/50
+    ]
+    research: {
+        parent: firot-refinery
+        requirements: [
+        t-copper/100
+        timura/100
+        firot/100
+        ]
+    }
+    consumes: {
+        power: 1
+        items: [
+            t-sand/5
+            t-lead/5
+        ]
+    }
+    outputItem: {
+        item: t-metaglass
+        amount: 5
+    }
+}

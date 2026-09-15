@@ -15,6 +15,10 @@
                 type: SectorComplete
                 preset: confrontation
             }
+            {
+                type: SectorComplete
+                preset: distribution
+            }
         ]
         planet: torvum
     }
