@@ -1,0 +1,21 @@
+{
+    type: SectorPreset
+    planet: torvum
+    sector: 2
+    difficulty: 18
+    captureWave: 22
+    shownPlanets: [torvum]
+    overrideLaunchDefaults: true
+    requireUnlock: true
+    research: {
+        parent: confrontation
+        requirements: []
+        objectives: [
+            {
+                type: SectorComplete
+                preset: confrontation
+            }
+        ]
+        planet: torvum
+    }
+}
