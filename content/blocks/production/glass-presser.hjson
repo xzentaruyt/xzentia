@@ -1,6 +1,10 @@
 {
     type: GenericCrafter
     category: crafting
+    size: 2
+    shownPlanets: [
+        torvum
+    ]
     health: 400
     requirements: [
         t-copper/50
