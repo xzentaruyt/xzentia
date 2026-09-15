@@ -1,0 +1,60 @@
+{
+    type: ItemTurret
+    health: 400
+    range: 320
+    maxAmmo: 90
+    inaccuracy: 5
+    recoil: 2
+    size: 1
+    reload: 80
+    category: turret
+    shownPlanets: [
+        torvum
+    ]
+    requirements: [
+        t-scrap/15
+        t-copper/10
+        timura/5
+    ]
+    research: {
+        parent: tart
+        objectives: [
+            {
+                type: SectorComplete
+                preset: confrontation
+            }
+        ]
+        requirements: [
+            t-copper/100
+            t-scrap/100
+            timura/100
+        ]
+    }
+    ammoTypes: {
+        t-copper: {
+            type: BasicBulletType
+            damage: 60
+            speed: 8
+            lifetime: 40
+            ammoMultiplier: 3
+            backColor: d39169
+            frontColor: eac1a8
+            hitEffect: flakExplosion
+            despawnEffect: flakExplosion
+            homingDelay: 0.2
+        }
+        t-scrap: {
+            type: BasicBulletType
+            damage: 30
+            speed: 16
+            lifetime: 20
+            reloadMultiplier: 2
+            ammoMultiplier: 6
+            backColor: 9b928b
+            frontColor: e0b28d
+            hitEffect: flakExplosion
+            despawnEffect: flakExplosion
+            homingPower: 0.1
+        }
+    }
+}

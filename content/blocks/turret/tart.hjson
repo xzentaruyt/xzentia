@@ -6,7 +6,7 @@
     recoils: 1
     inaccuracy: 0
     requirements: [
-        t-copper/25
+        t-copper/20
         timura/10
     ]
     recoil: 1
