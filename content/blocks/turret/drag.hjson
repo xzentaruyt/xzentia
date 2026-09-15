@@ -47,7 +47,7 @@
             type: BasicBulletType
             damage: 30
             speed: 16
-            lifetime: 20
+            lifetime: 30
             reloadMultiplier: 2
             ammoMultiplier: 6
             backColor: 9b928b
