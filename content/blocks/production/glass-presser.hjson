@@ -5,6 +5,7 @@
     shownPlanets: [
         torvum
     ]
+    itemCapacity: 40
     health: 400
     requirements: [
         t-copper/50
