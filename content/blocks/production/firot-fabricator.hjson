@@ -1,0 +1,46 @@
+{
+  "type": GenericCrafter
+  "health": 600
+  "category": crafting
+  "craftTime": 20
+  itemCapacity: 40
+  "buildCostMultiplier": 2
+  "size": 2
+  "lightColor": 00f0ffff
+  "emitLight": true
+  "lightRadius": 60
+  "hasItems": true
+  "requirements": [
+    t-copper/150
+    t-metaglass/50
+    firot/100
+  ]
+  "research": {
+    "parent": glass-presser
+    "requirements": [
+        t-copper/1000
+        t-metaglass/500
+        firot/1000
+    ]
+    objectives: [
+      {
+        type: SectorComplete
+        preset: transportation
+      }
+    ]
+  }
+  "consumes": {
+    power: 60
+    "items": [
+        t-lead/3
+        t-scrap/2
+    ]
+    }
+    shownPlanets: [
+        torvum
+    ]
+   "outputItem": {
+   "item": firot,
+   "amount": 3
+    }
+}
