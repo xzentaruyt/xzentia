@@ -1,0 +1,12 @@
+{
+    type: Item
+    hardness: 0
+    color: 53565c
+    cost: 0.8
+     shownPlanets: [
+        torvum
+    ]
+    research: {
+        parent: t-coal
+    }
+}
