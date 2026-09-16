@@ -9,7 +9,7 @@
     displayFlow: false
     craftTime: 1
     outputItems: [
-        copper/1
-        lead/1
+        copper/10
+        lead/10
     ]
 }
