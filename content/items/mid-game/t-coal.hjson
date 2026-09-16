@@ -1,0 +1,14 @@
+{
+    type: item
+    hardness: 3
+    color: 272727
+    cost: 1
+    shownPlanets: [
+        torvum
+    ]
+    research: {
+        parent: t-metaglass
+    }
+    explosiveness: 0.2
+    flammability: 1
+}
