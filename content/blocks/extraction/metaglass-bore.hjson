@@ -12,7 +12,7 @@
     }
     "drillTime": 330
     "size": 2
-    "rotateSpeed": 4
+    "rotateSpeed": 3.141592653589793236462643
     shownPlanets: [
         torvum
     ]
