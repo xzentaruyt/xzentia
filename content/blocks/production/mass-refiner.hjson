@@ -5,17 +5,17 @@
     size: 3
     consumes: {
         power: 4
-        itemList: [
-            t-sand
-            t-coal
-        ]
         items: [
+            t-coal/2
             t-lead/3
-            timura/2
+            timura/1
         ]
     }
     outputItem: {
         item: t-silicon
-        amount: 2
+        amount: 3
+    }
+    research: {
+        parent: copper-bore
     }
 }
