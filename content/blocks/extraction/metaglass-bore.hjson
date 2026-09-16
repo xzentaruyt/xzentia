@@ -1,0 +1,21 @@
+{
+    "category" : "production" 
+    "type": drill
+    "requirements": [t-metaglass/12, timura/20]
+    health: 500
+    "research": {
+        "parent": firot-bore
+        "requirements": [
+            t-metaglass/100
+            timura/150
+        ]
+    }
+    "drillTime": 330
+    "size": 2
+    "rotateSpeed": 4
+    shownPlanets: [
+        torvum
+    ]
+    tier: 3
+    itemCapacity: 40
+}
