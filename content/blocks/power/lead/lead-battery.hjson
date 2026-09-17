@@ -4,10 +4,12 @@
   "size": 1
   "buildCostMultiplier": 2
   "destructible": true
-  "powerProduction": 2
+  "powerProduction": 1
   "requirements": [
     t-lead/10
     t-silicon/5
+    t-metaglass/7
+    firot/7
   ]
   "category": power
   "research": {
@@ -15,6 +17,8 @@
     "requirements": [
         t-lead/100
         t-silicon/100
+        t-metaglass/100
+        firot/100
     ]
   }
   shownPlanets: [

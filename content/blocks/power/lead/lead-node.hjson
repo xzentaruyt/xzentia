@@ -9,6 +9,8 @@
   "requirements": [
     t-silicon/2
     t-lead/3
+    t-metaglass/2
+    firot/2
   ]
   "category": power
   "research": {
@@ -16,6 +18,8 @@
     "requirements": [
         t-silicon/100
         t-lead/100
+        t-metaglass/100
+        firot/100
     ]
   }
   shownPlanets: [
