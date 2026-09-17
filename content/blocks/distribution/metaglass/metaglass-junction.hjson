@@ -1,0 +1,23 @@
+{
+    type: Junction
+    health: 40
+    speed: 0.04
+    placeableLiquid: true
+    itemCapacity: 8
+    requirements: [
+        t-silicon/1
+        t-metaglass/2
+        t-lead/1
+    ]
+    research: {
+        parent: metaglass-conveyor
+        requirements: [
+            t-metaglass/100
+            t-silicon/100
+            t-lead/100
+        ]
+    }
+    shownPlanets: [
+        torvum
+    ]
+}

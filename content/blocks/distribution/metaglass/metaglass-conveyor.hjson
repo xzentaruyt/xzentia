@@ -1,0 +1,37 @@
+{
+    type: conveyor
+    health: 40
+    speed: 0.06
+    placeableLiquid: true
+    requirements: [
+        t-silicon/1
+        t-metaglass/2
+        t-lead/1
+    ]
+    research: {
+        parent: firot-conveyor
+        requirements: [
+            t-metaglass/100
+            t-silicon/100
+            t-lead/100
+        ]
+        objectives: [
+            {
+                type: SectorComplete
+                preset: confrontation
+            }
+            {
+                type: Research
+                content: firot-junction
+            }
+            {
+                type: Research
+                content: firot-router
+            }
+        ]
+    }
+    junctionReplacement: metaglass-junction
+    shownPlanets: [
+        torvum
+    ]
+}
