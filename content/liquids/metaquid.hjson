@@ -1,3 +1,16 @@
 {
     type: Liquid
+    color: ebeef5ff
+    barColor: ebeef5ff
+    flammability: 0
+    temperature: 1
+    viscosity: 0.75
+    heatCapacity: 1
+    boilPoint: 2.3
+    shownPlanets: [
+        torvum
+    ]
+    research: {
+        parent: t-metaglass
+    }
 }
