@@ -17,5 +17,10 @@
     }
     research: {
         parent: copper-bore
+        requirements: [
+            t-copper/3000
+            t-lead/3000
+            firot/1000
+        ]
     }
 }
