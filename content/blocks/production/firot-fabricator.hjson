@@ -16,7 +16,7 @@
     firot/100
   ]
   "research": {
-    "parent": glass-presser
+    "parent": firot-factory
     "requirements": [
         t-copper/1000
         t-metaglass/500

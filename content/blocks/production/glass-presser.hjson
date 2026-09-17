@@ -13,7 +13,7 @@
         firot/50
     ]
     research: {
-        parent: firot-refinery
+        parent: refinery
         requirements: [
         t-copper/100
         timura/100

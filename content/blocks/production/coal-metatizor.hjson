@@ -1,0 +1,29 @@
+{
+    type: GenericCrafter
+    health: 850
+    requirements: [t-copper/100, t-lead/50, firot/12]
+    category: crafting
+    itemCapacity: 20
+    size: 2
+    consumes: {
+        power: 4
+        items: [
+            t-coal/2
+        ]
+        liquids: [
+            metaquid/1
+        ] 
+    }
+    outputItem: {
+        item: metacoal
+        amount: 5
+    }
+    research: {
+        parent: copper-bore
+        requirements: [
+            t-copper/3000
+            t-lead/3000
+            firot/1000
+        ]
+    }
+}
