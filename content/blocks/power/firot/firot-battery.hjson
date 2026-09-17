@@ -1,0 +1,23 @@
+{
+  "type": "ConsumeGenerator"
+  "health": 60
+  "size": 1
+  "buildCostMultiplier": 2
+  "destructible": true
+  "powerProduction": 0.5
+  "requirements": [
+    firot/10
+    t-copper/5
+  ]
+  "category": power
+  "research": {
+    "parent": firot-factory
+    "requirements": [
+        firot/100
+        t-copper/100
+    ]
+  }
+  shownPlanets: [
+        torvum
+    ]
+}

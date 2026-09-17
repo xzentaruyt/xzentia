@@ -1,0 +1,24 @@
+{
+  "type": BeamNode
+  "health": 100
+  "size": 1
+  "buildCostMultiplier": 2
+  range: 20
+  laserColor1: 9bd4b7
+  laserColor2: 7ea8a1
+  "requirements": [
+    t-silicon/2
+    t-lead/3
+  ]
+  "category": power
+  "research": {
+    "parent": scrap-node
+    "requirements": [
+        t-silicon/100
+        t-lead/100
+    ]
+  }
+  shownPlanets: [
+        torvum
+    ]
+}
