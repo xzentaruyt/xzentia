@@ -1,0 +1,25 @@
+{
+    type: Conduit
+    junctionReplacement: lead-liquid-junction
+    capRegion: lead-conduit-cap
+    topRegion: lead-conduit-top
+    botColor: 4a4b53
+    liquidCapacity: 20
+    requirements: [
+        t-lead/2
+        t-metaglass/1
+        t-copper/1
+    ]
+    shownPlanets: [
+        torvum
+    ]
+    research: {
+        parent: copper-bore
+        requirements: [
+            t-lead/100
+            t-metaglass/100
+            t-copper/100
+        ]
+    }
+    category: liquid
+}

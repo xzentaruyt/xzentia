@@ -1,0 +1,22 @@
+{
+    type: LiquidJunction
+    liquidCapacity: 20
+    topRegion: lead-fluid-junction
+    liquidCapacity: 20
+    requirements: [
+        t-lead/3
+        metaglass/1
+    ]
+    shownPlanets: [
+        torvum
+    ]
+    research: {
+        parent: lead-conduit
+        requirements: [
+            t-lead/100
+            t-metaglass/100
+            t-copper/100
+        ]
+    }
+    category: liquid
+}
