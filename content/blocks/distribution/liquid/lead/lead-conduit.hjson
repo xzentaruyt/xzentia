@@ -1,6 +1,6 @@
 {
     type: Conduit
-    junctionReplacement: lead-liquid-junction
+    junctionReplacement: lead-fluid-junction
     topRegion: lead-conduit-top
     botColor: 4a4b53
     liquidCapacity: 20
