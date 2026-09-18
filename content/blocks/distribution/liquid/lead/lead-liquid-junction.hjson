@@ -1,7 +1,7 @@
 {
     type: LiquidJunction
     liquidCapacity: 20
-    topRegion: lead-fluid-junction
+    region: lead-fluid-junction
     liquidCapacity: 20
     requirements: [
         t-lead/3
