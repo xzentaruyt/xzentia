@@ -1,7 +1,6 @@
 {
     type: LiquidJunction
     liquidCapacity: 20
-    region: lead-fluid-junction
     requirements: [
         t-lead/3
         t-metaglass/1
