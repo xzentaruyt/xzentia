@@ -1,11 +1,9 @@
 {
     type: LiquidJunction
     liquidCapacity: 20
-    region: lead-fluid-junction
-    liquidCapacity: 20
     requirements: [
         t-lead/3
-        metaglass/1
+        t-metaglass/1
     ]
     shownPlanets: [
         torvum
