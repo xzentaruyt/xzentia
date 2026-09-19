@@ -8,13 +8,13 @@
     ammoCapacity: 20
     weapons: [
         {
-            reload: 30
+            reload: 15
             x: 4
             y: 0
             mirror: true
             bullet: {
                 type: BasicBulletType
-                speed: 3
+                speed: 4
                 lifetime: 30
                 damage: 60
                 homingRange: 100
