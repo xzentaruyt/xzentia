@@ -2,6 +2,7 @@
     type: UnitFactory
     hasPower: true
     size: 3
+    category: units
     separateItemCapacity: true
     itemCapacity: 200
     consumes: {
