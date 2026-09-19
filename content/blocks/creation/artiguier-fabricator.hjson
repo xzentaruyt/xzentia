@@ -5,8 +5,17 @@
     category: units
     separateItemCapacity: true
     itemCapacity: 200
+    requirements: [
+        t-copper/500
+        t-lead/300
+        t-metaglass/100
+        metacoal/50
+    ]
     consumes: {
         power: 1.2
+        liquids: [
+            metaquid/2
+        ]
     }
     plans: [
         {
@@ -22,5 +31,11 @@
     shownPlanets: [torvum]
     research: {
         parent: sparrow
+        requirements: [
+            t-copper/1000
+            t-lead/1000
+            t-metaglass/1000
+            metacoal/1000
+        ]
     }
 }

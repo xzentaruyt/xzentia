@@ -24,4 +24,15 @@
             }
         }
     ]
+    research: {
+        parent: artiguier-fabricator
+        requirements: [
+            metacoal/1
+            t-copper/2
+            t-silicon/1
+        ]
+    }
+    shownPlanets: [
+        torvum
+    ]
 }
