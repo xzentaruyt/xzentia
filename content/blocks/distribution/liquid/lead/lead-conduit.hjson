@@ -13,7 +13,7 @@
         torvum
     ]
     research: {
-        parent: copper-bore
+        parent: metaglass-melter
         requirements: [
             t-lead/100
             t-metaglass/100

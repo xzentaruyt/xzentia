@@ -1,0 +1,32 @@
+{
+    type: GenericCrafter
+    size: 2
+    health: 500
+    consumes: {
+        power: 4
+        items: [
+            t-metaglass/5
+        ]
+    }
+    outputLiquid: {
+        liquid: metaquid
+        amount: 5
+    }
+    requirements: [
+        t-copper/25
+        t-lead/50
+        t-metaglass/25
+    ]
+    research: {
+        parent: copper-bore
+        requirements: [
+            t-copper/200
+            t-lead/400
+            t-metaglass/200
+        ]
+    }
+    category: production
+    shownPlanets: [
+        torvum
+    ]
+}
