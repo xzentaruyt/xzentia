@@ -1,0 +1,32 @@
+{
+    type: ConsumeGenerator
+    category: power
+    size: 1
+    powerProduction: 1.0
+    itemDuration: 90.0
+    consumes: {
+        itemExplosive: {}
+    }
+    shownPlanets: [
+        torvum
+    ]
+    requirements: [
+        t-copper/25
+        t-lead/25
+        t-silicon/10
+    ]
+    research: {
+        parent: lead-battery
+        requirements: [
+            t-copper/1000
+            t-lead/1000
+            t-silicon/750
+        ]
+        objectives: [
+            {
+                type: Produce
+                content: metacoal
+            }
+        ]
+    }
+}
