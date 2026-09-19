@@ -2,6 +2,8 @@
     type: UnitFactory
     hasPower: true
     size: 3
+    separateItemCapacity: true
+    itemCapacity: 200
     consumes: {
         power: 1.2
     }
@@ -9,6 +11,15 @@
         {
             unit: artiguier
             time: 900
+            requirements: [
+                metacoal/10
+                t-copper/20
+                t-silicon/10
+            ]
         }
     ]
+    shownPlanets: [torvum]
+    research: {
+        parent: sparrow
+    }
 }
