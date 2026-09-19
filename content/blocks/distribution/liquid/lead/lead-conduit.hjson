@@ -2,7 +2,7 @@
     type: Conduit
     junctionReplacement: lead-fluid-junction
     topRegion: lead-conduit-top
-    botColor: 4a4b53
+    botColor: 7a4334
     liquidCapacity: 20
     requirements: [
         t-lead/2
