@@ -37,4 +37,5 @@
     shownPlanets: [
         torvum
     ]
+    flying: true
 }
