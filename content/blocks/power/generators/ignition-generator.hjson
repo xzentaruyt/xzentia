@@ -2,7 +2,7 @@
     type: ConsumeGenerator
     category: power
     size: 1
-    powerProduction: 1.0
+    powerProduction: 5
     itemDuration: 90.0
     consumes: {
         itemExplosive: {}
