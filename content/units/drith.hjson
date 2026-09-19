@@ -23,10 +23,10 @@
     mineRange: 150
     mineTier: 1
     mineItems: [
-        copper
-        lead
-        sand
-        coal
+        t-copper
+        t-lead
+        t-sand
+        t-coal
         timura
     ]
 }
