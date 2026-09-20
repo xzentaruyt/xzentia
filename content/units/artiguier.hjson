@@ -27,9 +27,6 @@
                 fragVelocityMax: 4
                 fragLifeMax: 1
                 fragLifeMin: 1
-                fragOnHit: true
-                fragOnDespawn: false
-                fragOnAbsorb: true
                 fragAngle: 15
                 fragRandomSpread: 15
                 fragSpread: 15
@@ -38,12 +35,12 @@
                     type: BasicBulletType
                     speed: 4
                     lifetime: 30
-                    damage: 60
+                    damage: 15
                     homingRange: 100
                     homingPower: 0.08
                     frontColor: ffa64d
                     backColor: d97300
-                    width: 7
+                    width: 3.5
                     height: 12
                 }
             }
