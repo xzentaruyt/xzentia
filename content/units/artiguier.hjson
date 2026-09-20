@@ -23,7 +23,7 @@
                 backColor: d97300
                 width: 7
                 height: 12
-                fragAngle: 15
+                fragSpread: 15
                 fragBullets: 2
                 fragBullet: {
                     type: BasicBulletType
