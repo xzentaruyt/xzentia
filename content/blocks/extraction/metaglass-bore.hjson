@@ -12,6 +12,16 @@
     }
     "drillTime": 330
     "size": 2
+    hasLiquids: true
+    liquidBoostIntensity: 1.5
+    consumes: {
+        liquidsBoost: [
+            {
+                liquid: water
+                amount: 1
+            }
+        ]
+    }
     "rotateSpeed": 3.141592653589793236462643
     shownPlanets: [
         torvum
