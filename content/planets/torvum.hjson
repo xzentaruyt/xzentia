@@ -14,13 +14,13 @@
     }
     parent: sun
     solarSystem: sun
-    radius: 0.8
+    radius: 1
     camRadius: 0.8 
     defaultCore: sparrow
     orbitRadius: 18
     accessible: true
     alwaysUnlocked: true
-    sectorSize: 2        # Higher numbers generate more micro-hex sectors across the sphere
+    sectorSize: 4        # Higher numbers generate more micro-hex sectors across the sphere
     startSector: 0       # The ID of the sector players land on first
     clearSectorOnLose: false
     allowLaunchLoadout: true # If true, allows dropping in resources from other sectors
@@ -28,21 +28,11 @@
     generator: {
         minSolids: 5
         maxSolids: 10
+        liquids: [
+            water
+        ]
         items: [
-            copper
-            lead
-            graphite
-            titanium
-            scrap
-            ciode
-            charged-ions
-            anticharged-ions
-            plutonium
-            thorium
-            silicon
-            fiberglass
-            pellurium
-            oxygen-capsule
+            
         ]
     }
 }
