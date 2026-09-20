@@ -1,0 +1,18 @@
+{
+    type: Pump
+    consumes: {
+        itemExplosive: {}
+        power: 2
+    }
+    pumpAmount: 1
+    category: liquid
+    requirements: [
+        t-copper/15
+    ]
+    research: {
+        parent: copper-bore
+        requirements: [
+            t-copper/1000
+        ]
+    }
+}
