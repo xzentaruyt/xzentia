@@ -1,0 +1,19 @@
+{
+    type: LiquidRouter
+    liquidCapacity: 20
+    topRegion: lead-fluid-router
+    requirements: [
+        t-lead/3
+        t-metaglass/1
+        t-copper/1
+    ]
+    research: {
+        parent: lead-conduit
+        requirements: [
+            t-lead/100
+            t-metaglass/100
+            t-copper/100
+        ]
+    }
+    category: liquid
+}
