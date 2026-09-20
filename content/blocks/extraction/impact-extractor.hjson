@@ -1,5 +1,6 @@
 {
     type: Pump
+    size: 2
     consumes: {
         itemExplosive: {}
         power: 2
