@@ -2,7 +2,7 @@
     type: CoreBlock
     size: 3
     health: 600
-    itemCapacity: 1500
+    itemCapacity: 3000
     unitCapModifier: 16
     unitType: drith
     category: effect
