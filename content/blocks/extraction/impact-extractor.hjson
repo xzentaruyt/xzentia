@@ -4,6 +4,7 @@
         itemExplosive: {}
         power: 2
     }
+    liquidCapacity: 400
     pumpAmount: 1
     category: liquid
     requirements: [
