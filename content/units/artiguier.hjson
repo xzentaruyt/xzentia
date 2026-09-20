@@ -17,14 +17,14 @@
                 speed: 4
                 lifetime: 30
                 damage: 60
-                homingRange: 100
+                homingRange: 200
                 homingPower: 0.08
                 frontColor: ffa64d
                 backColor: d97300
                 width: 7
                 height: 12
-                fragVelocityMin: 4
-                fragVelocityMax: 4
+                fragVelocityMin: 1
+                fragVelocityMax: 1
                 fragLifeMax: 1
                 fragLifeMin: 1
                 fragAngle: 15
@@ -36,11 +36,11 @@
                     speed: 4
                     lifetime: 30
                     damage: 15
-                    homingRange: 100
+                    homingRange: 200
                     homingPower: 0.08
                     frontColor: ffa64d
                     backColor: d97300
-                    width: 3.5
+                    width: 5
                     height: 12
                 }
             }
