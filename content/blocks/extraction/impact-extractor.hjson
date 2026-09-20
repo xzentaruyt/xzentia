@@ -6,7 +6,7 @@
         power: 2
     }
     liquidCapacity: 400
-    pumpAmount: 1
+    pumpAmount: 0.2
     category: liquid
     requirements: [
         t-copper/15
