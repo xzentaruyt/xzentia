@@ -1,0 +1,55 @@
+{
+    type: LiquidTurret
+    ammoPerShot: 1
+    maxAmmo: 1000
+    ammoTypes: {
+        water: {
+            type: BasicBulletType
+            damage: 30
+            ammoMultiplier: 10
+            speed: 4
+            lifetime: 10
+            fragRandomSpread: 15
+            fragBullets: 2
+            height: 12
+            width: 10
+            homingPower: 0.03
+            frontColor: 596ab8
+            backColor: bulletYellowBack
+            fragBullet: {
+                type: BasicBulletType
+                damage: 20
+                speed: 3
+                lifetime: 10
+                fragRandomSpread: 15
+                fragBullets: 2
+                height: 9
+                width: 7.5
+                frontColor: 596ab8
+                backColor: bulletYellowBack
+                fragBullet: {
+                    damage: 10
+                    speed: 2
+                    lifetime: 10
+                    height: 6
+                    width: 5
+                    frontColor: 596ab8
+                    backColor: bulletYellowBack
+                }
+            }
+        }
+    }
+    requirements: [
+        t-copper/15
+        t-metaglass/5
+        t-scrap/10
+    ]
+    research: {
+        parent: drag
+        requirements: [
+            t-copper/100
+            t-metaglass/100
+            t-scrap/100
+        ]
+    }
+}
