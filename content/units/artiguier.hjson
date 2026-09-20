@@ -23,6 +23,15 @@
                 backColor: d97300
                 width: 7
                 height: 12
+                fragVelocityMin: 4
+                fragVelocityMax: 4
+                fragLifeMax: 1
+                fragLifeMin: 1
+                fragOnHit: true
+                fragOnDespawn: false
+                fragOnAbsorb: true
+                fragAngle: 15
+                fragRandomSpread: 15
                 fragSpread: 15
                 fragBullets: 2
                 fragBullet: {
