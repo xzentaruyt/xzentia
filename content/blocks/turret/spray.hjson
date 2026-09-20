@@ -2,13 +2,14 @@
     type: LiquidTurret
     ammoPerShot: 1
     maxAmmo: 1000
+    range: 270
     ammoTypes: {
         water: {
             type: BasicBulletType
             damage: 30
             ammoMultiplier: 10
-            speed: 4
-            lifetime: 10
+            speed: 8
+            lifetime: 15
             fragRandomSpread: 15
             fragBullets: 2
             height: 12
@@ -16,21 +17,25 @@
             homingPower: 0.03
             frontColor: 596ab8
             backColor: bulletYellowBack
+            fragVelocityMin: 1
+            fragVelocityMax: 1
             fragBullet: {
                 type: BasicBulletType
                 damage: 20
-                speed: 3
-                lifetime: 10
+                speed: 6
+                lifetime: 15
                 fragRandomSpread: 15
                 fragBullets: 2
                 height: 9
                 width: 7.5
                 frontColor: 596ab8
                 backColor: bulletYellowBack
+                fragVelocityMin: 1
+                fragVelocityMax: 1
                 fragBullet: {
                     damage: 10
-                    speed: 2
-                    lifetime: 10
+                    speed: 4
+                    lifetime: 15
                     height: 6
                     width: 5
                     frontColor: 596ab8
