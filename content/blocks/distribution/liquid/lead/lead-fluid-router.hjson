@@ -3,6 +3,7 @@
     liquidCapacity: 20
     topRegion: lead-fluid-router
     liquidRegion: lead-fluid-router-liquid
+    bottomRegion: lead-fluid-router-bottom
     requirements: [
         t-lead/3
         t-metaglass/1
