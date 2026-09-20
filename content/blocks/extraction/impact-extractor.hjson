@@ -7,7 +7,7 @@
     }
     liquidCapacity: 400
     pumpAmount: 0.2
-    category: liquid
+    category: production
     requirements: [
         t-copper/15
         t-lead/30

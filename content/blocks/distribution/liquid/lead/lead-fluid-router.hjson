@@ -2,6 +2,7 @@
     type: LiquidRouter
     liquidCapacity: 20
     topRegion: lead-fluid-router
+    liquidRegion: lead-fluid-router-liquid
     requirements: [
         t-lead/3
         t-metaglass/1

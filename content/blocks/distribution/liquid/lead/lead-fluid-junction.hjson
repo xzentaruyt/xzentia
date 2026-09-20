@@ -13,7 +13,6 @@
         requirements: [
             t-lead/100
             t-metaglass/100
-            t-copper/100
         ]
     }
     category: liquid
