@@ -2,7 +2,11 @@
     type: CoreBlock
     size: 3
     health: 600
+    flags: [
+        unitModifier
+    ]
     itemCapacity: 1500
+    unitCapModifier: 16
     unitType: drith
     category: effect
     shownPlanets: [torvum]
