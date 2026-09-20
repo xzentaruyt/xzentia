@@ -10,11 +10,15 @@
     category: liquid
     requirements: [
         t-copper/15
+        t-lead/30
+        t-metaglass/10
     ]
     research: {
         parent: copper-bore
         requirements: [
             t-copper/1000
+            t-lead/1000
+            t-metaglass/1000
         ]
     }
 }
