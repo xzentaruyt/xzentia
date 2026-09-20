@@ -14,7 +14,9 @@
             fragBullets: 2
             height: 12
             width: 10
+            homingRange: 100
             homingPower: 0.03
+            hitColor: 596ab8
             frontColor: 596ab8
             backColor: bulletYellowBack
             fragVelocityMin: 1
@@ -30,6 +32,7 @@
                 width: 7.5
                 frontColor: 596ab8
                 backColor: bulletYellowBack
+                hitColor: 596ab8
                 fragVelocityMin: 1
                 fragVelocityMax: 1
                 fragBullet: {
@@ -40,6 +43,7 @@
                     width: 5
                     frontColor: 596ab8
                     backColor: bulletYellowBack
+                    hitColor: 596ab8
                 }
             }
         }
