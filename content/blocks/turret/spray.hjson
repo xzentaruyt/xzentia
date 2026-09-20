@@ -1,5 +1,6 @@
 {
     type: LiquidTurret
+    buildCostMultiplier: 5
     ammoPerShot: 1
     maxAmmo: 1000
     range: 270
@@ -44,6 +45,59 @@
                     frontColor: 596ab8
                     backColor: bulletYellowBack
                     hitColor: 596ab8
+                }
+            }
+        }
+        metaquid: {
+            type: BasicBulletType
+            damage: 10
+            ammoMultiplier: 10
+            speed: 8
+            lifetime: 15
+            fragRandomSpread: 15
+            fragBullets: 2
+            height: 12
+            width: 10
+            homingRange: 60
+            homingPower: 0.06
+            hitColor: ebeef5ff
+            frontColor: ebeef5ff
+            backColor: bulletYellowBack
+            status: burning
+            statusDuration: 480
+            fragVelocityMin: 1
+            fragVelocityMax: 1
+            fragBullet: {
+                type: BasicBulletType
+                damage: 5
+                speed: 6
+                lifetime: 15
+                fragRandomSpread: 15
+                fragBullets: 2
+                height: 9
+                width: 7.5
+                frontColor: ebeef5ff
+                backColor: bulletYellowBack
+                hitColor: ebeef5ff
+                fragVelocityMin: 1
+                homingRange: 30
+                homingPower: 0.03
+                fragVelocityMax: 1
+                status: burning
+                statusDuration: 240
+                fragBullet: {
+                    damage: 3
+                    speed: 4
+                    lifetime: 15
+                    height: 6
+                    width: 5
+                    homingRange: 15
+                    homingPower: 0.015
+                    frontColor: ebeef5ff
+                    backColor: bulletYellowBack
+                    hitColor: ebeef5ff
+                    status: burning
+                    statusDuration: 120
                 }
             }
         }
