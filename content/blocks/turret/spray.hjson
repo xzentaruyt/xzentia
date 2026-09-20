@@ -6,7 +6,7 @@
     ammoTypes: {
         water: {
             type: BasicBulletType
-            damage: 30
+            damage: 10
             ammoMultiplier: 10
             speed: 8
             lifetime: 15
@@ -23,7 +23,7 @@
             fragVelocityMax: 1
             fragBullet: {
                 type: BasicBulletType
-                damage: 20
+                damage: 5
                 speed: 6
                 lifetime: 15
                 fragRandomSpread: 15
@@ -36,7 +36,7 @@
                 fragVelocityMin: 1
                 fragVelocityMax: 1
                 fragBullet: {
-                    damage: 10
+                    damage: 3
                     speed: 4
                     lifetime: 15
                     height: 6
