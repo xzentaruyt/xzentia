@@ -1,0 +1,24 @@
+{
+    type: StorageBlock
+    acceptsItems: true
+    hasItems: true
+    hasLiquids: true
+    outputsLiquid: true
+    topRegion: lead-fluid-router
+    liquidRegion: lead-fluid-router-liquid
+    bottomRegion: lead-fluid-router-bottom
+    requirements: [
+        t-lead/3
+        t-metaglass/1
+        t-copper/1
+    ]
+    research: {
+        parent: lead-conduit
+        requirements: [
+            t-lead/100
+            t-metaglass/100
+            t-copper/100
+        ]
+    }
+    category: liquid
+}
