@@ -2,7 +2,7 @@
     cost: 1
     color: ffc92e
     research: {
-        parent: sparrow
+        parent: t-copper
         requirements: [
             timura/1
         ]
