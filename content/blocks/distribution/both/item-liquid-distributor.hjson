@@ -1,5 +1,6 @@
 {
     type: Router
+    size: 2
     hasItems: true
     hasLiquids: true
     outputsLiquid: true
