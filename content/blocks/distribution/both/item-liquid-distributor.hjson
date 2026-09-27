@@ -1,9 +1,10 @@
 {
-    type: StorageBlock
-    acceptsItems: true
+    type: Router
     hasItems: true
     hasLiquids: true
     outputsLiquid: true
+    itemCapacity: 40
+    liquidCapacity: 240
     topRegion: lead-fluid-router
     liquidRegion: lead-fluid-router-liquid
     bottomRegion: lead-fluid-router-bottom
@@ -20,5 +21,5 @@
             t-copper/100
         ]
     }
-    category: liquid
+    category: distribution
 }
