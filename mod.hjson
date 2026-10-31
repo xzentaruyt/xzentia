@@ -6,7 +6,6 @@
   "minGameVersion": "136",
   "version": "Beta"
   "hidden": false
-  java: true
   "dependencies": [
     "multicrafter"
     "snek-mod"
