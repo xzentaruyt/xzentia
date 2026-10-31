@@ -9,7 +9,7 @@
   "dependencies": [
     "multicrafter"
     "snek-mod"
-    "MultiCrafter 库"
+    "multi-crafter-lib"
     "hjsonpp"
   ]
 }
