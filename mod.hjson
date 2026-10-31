@@ -9,7 +9,6 @@
   "dependencies": [
     "multicrafter"
     "snek-mod"
-    "multi-crafter-lib"
     "hjsonpp"
   ]
 }
